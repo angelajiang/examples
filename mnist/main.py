@@ -4,6 +4,7 @@ import torch
 import torch.nn as nn
 import torch.nn.functional as F
 import torch.optim as optim
+import numpy as np
 from torchvision import datasets, transforms
 
 class Net(nn.Module):
@@ -26,17 +27,33 @@ class Net(nn.Module):
 
 def train(args, model, device, train_loader, optimizer, epoch):
     model.train()
+    all_losses = []
+    loss_reduction = None
+
     for batch_idx, (data, target) in enumerate(train_loader):
         data, target = data.to(device), target.to(device)
         optimizer.zero_grad()
         output = model(data)
-        loss = F.nll_loss(output, target)
-        loss.backward()
-        optimizer.step()
-        if batch_idx % args.log_interval == 0:
+        if args.selective_backprop:
+            loss = F.nll_loss(output, target, reduce=False)
+            k = min(len(loss), args.top_k)
+            values, indices = torch.topk(loss, k)
+            if len(all_losses) == len(loss):
+                all_losses_tensor = torch.cat(all_losses)
+                loss_reduction = torch.mean(all_losses_tensor)
+                loss_reduction.backward()
+                optimizer.step()
+                all_losses = []
+            else:
+                all_losses.append(values)
+        else:
+            loss_reduction = F.nll_loss(output, target)
+            loss_reduction.backward()
+            optimizer.step()
+        if batch_idx % args.log_interval == 0 and loss_reduction is not None:
             print('Train Epoch: {} [{}/{} ({:.0f}%)]\tLoss: {:.6f}'.format(
                 epoch, batch_idx * len(data), len(train_loader.dataset),
-                100. * batch_idx / len(train_loader), loss.item()))
+                100. * batch_idx / len(train_loader), loss_reduction.item()))
 
 def test(args, model, device, test_loader):
     model.eval()
@@ -62,7 +79,7 @@ def main():
                         help='input batch size for training (default: 64)')
     parser.add_argument('--test-batch-size', type=int, default=1000, metavar='N',
                         help='input batch size for testing (default: 1000)')
-    parser.add_argument('--epochs', type=int, default=10, metavar='N',
+    parser.add_argument('--epochs', type=int, default=500, metavar='N',
                         help='number of epochs to train (default: 10)')
     parser.add_argument('--lr', type=float, default=0.01, metavar='LR',
                         help='learning rate (default: 0.01)')
@@ -74,6 +91,10 @@ def main():
                         help='random seed (default: 1)')
     parser.add_argument('--log-interval', type=int, default=10, metavar='N',
                         help='how many batches to wait before logging training status')
+    parser.add_argument('--top-k', type=int, default=1, metavar='N',
+                        help='how many images to backprop per batch')
+    parser.add_argument('--selective-backprop', type=bool, default=False, metavar='N',
+                        help='whether or not to use selective-backprop')
     args = parser.parse_args()
     use_cuda = not args.no_cuda and torch.cuda.is_available()
 
