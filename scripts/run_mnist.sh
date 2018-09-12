@@ -7,7 +7,7 @@ LR=$4
 
 OUTPUT_DIR="/proj/BigLearning/ahjiang/output/mnist/"$EXP_NAME
 mkdir $OUTPUT_DIR
-OUTPUT_FILE="mnist_cifar10_"$TOP_K"_"$BATCH_SIZE"_"$LR".v0"
+OUTPUT_FILE="mnist_lecunn_"$TOP_K"_"$BATCH_SIZE"_"$LR".v0"
 
 python mnist/main.py \
   --batch-size $BATCH_SIZE \

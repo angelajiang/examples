@@ -1,5 +1,6 @@
 from __future__ import print_function
 import argparse
+import time
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
@@ -30,6 +31,9 @@ def train(args, model, device, train_loader, optimizer, epoch):
     all_losses = []
     loss_reduction = None
 
+    train_loss = 0
+    num_backprop = 0
+
     for batch_idx, (data, target) in enumerate(train_loader):
         data, target = data.to(device), target.to(device)
         optimizer.zero_grad()
@@ -44,21 +48,34 @@ def train(args, model, device, train_loader, optimizer, epoch):
                 loss_reduction.backward()
                 optimizer.step()
                 all_losses = []
+                train_loss += loss_reduction.item()
+                num_backprop += 1
             else:
                 all_losses.append(values)
         else:
             loss_reduction = F.nll_loss(output, target)
             loss_reduction.backward()
             optimizer.step()
+            train_loss += loss_reduction.item()
+            num_backprop += 1
         if batch_idx % args.log_interval == 0 and loss_reduction is not None:
+            print('train_debug,{},{},{:.6f},{:.6f},{}'.format(
+                        epoch,
+                        num_backprop,
+                        loss_reduction.item(),
+                        train_loss / float(num_backprop),
+                        time.time()))
+            '''
             print('Train Epoch: {} [{}/{} ({:.0f}%)]\tLoss: {:.6f}'.format(
                 epoch, batch_idx * len(data), len(train_loader.dataset),
                 100. * batch_idx / len(train_loader), loss_reduction.item()))
+            '''
 
-def test(args, model, device, test_loader):
+def test(args, model, device, test_loader, epoch):
     model.eval()
     test_loss = 0
     correct = 0
+    total = 0
     with torch.no_grad():
         for data, target in test_loader:
             data, target = data.to(device), target.to(device)
@@ -66,11 +83,19 @@ def test(args, model, device, test_loader):
             test_loss += F.nll_loss(output, target, reduction='sum').item() # sum up batch loss
             pred = output.max(1, keepdim=True)[1] # get the index of the max log-probability
             correct += pred.eq(target.view_as(pred)).sum().item()
+            total += target.size(0)
 
     test_loss /= len(test_loader.dataset)
+    print('test_debug,{},{:.6f},{:.6f},{}'.format(
+                epoch,
+                test_loss,
+                100.*correct/total,
+                time.time()))
+    '''
     print('\nTest set: Average loss: {:.4f}, Accuracy: {}/{} ({:.0f}%)\n'.format(
         test_loss, correct, len(test_loader.dataset),
         100. * correct / len(test_loader.dataset)))
+    '''
 
 def main():
     # Training settings
@@ -123,7 +148,7 @@ def main():
 
     for epoch in range(1, args.epochs + 1):
         train(args, model, device, train_loader, optimizer, epoch)
-        test(args, model, device, test_loader)
+        test(args, model, device, test_loader, epoch)
 
 
 if __name__ == '__main__':
