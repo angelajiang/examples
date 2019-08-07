@@ -6,6 +6,11 @@ import torch.nn.functional as F
 import torch.optim as optim
 from torchvision import datasets, transforms
 
+import datetime
+def get_epochtime_ms():
+    return int((datetime.datetime.utcnow() - datetime.datetime(1970, 1, 1)).total_seconds() * 1000) 
+
+PROFILE_TIMING = True
 
 class Net(nn.Module):
     def __init__(self):
@@ -28,16 +33,38 @@ class Net(nn.Module):
 def train(args, model, device, train_loader, optimizer, epoch):
     model.train()
     for batch_idx, (data, target) in enumerate(train_loader):
+        print("-----------------------")
         data, target = data.to(device), target.to(device)
         optimizer.zero_grad()
-        output = model(data)
+        if PROFILE_TIMING:
+            print("[python] ===forward: {}".format(get_epochtime_ms()))
+            with torch.cuda.profiler.profile():
+                model(data) # warmup
+                with torch.autograd.profiler.emit_nvtx():
+                    output = model(data)
+        else:
+            output = model(data)
+        if PROFILE_TIMING:
+            #torch.cuda.synchronize()
+            print("[python] forward===: {}".format(get_epochtime_ms()))
         loss = F.nll_loss(output, target)
-        loss.backward()
+        if PROFILE_TIMING:
+            print("[python] ===backward: {}".format(get_epochtime_ms()))
+            with torch.cuda.profiler.profile():
+                with torch.autograd.profiler.emit_nvtx():
+                    loss.backward()
+        else:
+            loss.backward()
+        if PROFILE_TIMING:
+            #torch.cuda.synchronize()
+            print("[python] backward===: {}".format(get_epochtime_ms()))
         optimizer.step()
         if batch_idx % args.log_interval == 0:
             print('Train Epoch: {} [{}/{} ({:.0f}%)]\tLoss: {:.6f}'.format(
                 epoch, batch_idx * len(data), len(train_loader.dataset),
                 100. * batch_idx / len(train_loader), loss.item()))
+        if batch_idx >= 10:
+            exit()
 
 def test(args, model, device, test_loader):
     model.eval()
