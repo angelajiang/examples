@@ -1,0 +1,552 @@
+['alexnet', 'densenet121', 'densenet161', 'densenet169', 'densenet201', 'inception_v3', 'resnet101', 'resnet152', 'resnet18', 'resnet34', 'resnet50', 'squeezenet1_0', 'squeezenet1_1', 'vgg11', 'vgg11_bn', 'vgg13', 'vgg13_bn', 'vgg16', 'vgg16_bn', 'vgg19', 'vgg19_bn']
+=> creating model 'resnet101'
+========================
+[python] ===epoch: 1565283325242
+[python] ===forward-nograd: 1565283325249
+raw_cudnn_convolution_forward_out aten, start = 26:458630
+raw_cudnn_convolution_forward_out output aten, dims = [512, 64, 112, 112]
+raw_cudnn_convolution_forward_out input aten, dims = [512, 3, 224, 224]
+raw_cudnn_convolution_forward_out weight aten, dims = [64, 3, 7, 7]
+raw_cudnn_convolution_forward_out aten, end = 26:843656, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 26:852370
+raw_cudnn_convolution_forward_out output aten, dims = [512, 64, 56, 56]
+raw_cudnn_convolution_forward_out input aten, dims = [512, 64, 56, 56]
+raw_cudnn_convolution_forward_out weight aten, dims = [64, 64, 1, 1]
+raw_cudnn_convolution_forward_out aten, end = 26:979855, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 26:980180
+raw_cudnn_convolution_forward_out output aten, dims = [512, 64, 56, 56]
+raw_cudnn_convolution_forward_out input aten, dims = [512, 64, 56, 56]
+raw_cudnn_convolution_forward_out weight aten, dims = [64, 64, 3, 3]
+raw_cudnn_convolution_forward_out aten, end = 27:285721, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 27:293717
+raw_cudnn_convolution_forward_out output aten, dims = [512, 256, 56, 56]
+raw_cudnn_convolution_forward_out input aten, dims = [512, 64, 56, 56]
+raw_cudnn_convolution_forward_out weight aten, dims = [256, 64, 1, 1]
+raw_cudnn_convolution_forward_out aten, end = 27:759386, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 27:768359
+raw_cudnn_convolution_forward_out output aten, dims = [512, 256, 56, 56]
+raw_cudnn_convolution_forward_out input aten, dims = [512, 64, 56, 56]
+raw_cudnn_convolution_forward_out weight aten, dims = [256, 64, 1, 1]
+raw_cudnn_convolution_forward_out aten, end = 27:803019, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 27:811596
+raw_cudnn_convolution_forward_out output aten, dims = [512, 64, 56, 56]
+raw_cudnn_convolution_forward_out input aten, dims = [512, 256, 56, 56]
+raw_cudnn_convolution_forward_out weight aten, dims = [64, 256, 1, 1]
+raw_cudnn_convolution_forward_out aten, end = 28:792433, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 28:792822
+raw_cudnn_convolution_forward_out output aten, dims = [512, 64, 56, 56]
+raw_cudnn_convolution_forward_out input aten, dims = [512, 64, 56, 56]
+raw_cudnn_convolution_forward_out weight aten, dims = [64, 64, 3, 3]
+raw_cudnn_convolution_forward_out aten, end = 28:814980, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 28:817613
+raw_cudnn_convolution_forward_out output aten, dims = [512, 256, 56, 56]
+raw_cudnn_convolution_forward_out input aten, dims = [512, 64, 56, 56]
+raw_cudnn_convolution_forward_out weight aten, dims = [256, 64, 1, 1]
+raw_cudnn_convolution_forward_out aten, end = 28:836341, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 28:838602
+raw_cudnn_convolution_forward_out output aten, dims = [512, 64, 56, 56]
+raw_cudnn_convolution_forward_out input aten, dims = [512, 256, 56, 56]
+raw_cudnn_convolution_forward_out weight aten, dims = [64, 256, 1, 1]
+raw_cudnn_convolution_forward_out aten, end = 28:900313, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 28:900553
+raw_cudnn_convolution_forward_out output aten, dims = [512, 64, 56, 56]
+raw_cudnn_convolution_forward_out input aten, dims = [512, 64, 56, 56]
+raw_cudnn_convolution_forward_out weight aten, dims = [64, 64, 3, 3]
+raw_cudnn_convolution_forward_out aten, end = 28:922301, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 28:922532
+raw_cudnn_convolution_forward_out output aten, dims = [512, 256, 56, 56]
+raw_cudnn_convolution_forward_out input aten, dims = [512, 64, 56, 56]
+raw_cudnn_convolution_forward_out weight aten, dims = [256, 64, 1, 1]
+raw_cudnn_convolution_forward_out aten, end = 28:943204, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 28:943455
+raw_cudnn_convolution_forward_out output aten, dims = [512, 128, 56, 56]
+raw_cudnn_convolution_forward_out input aten, dims = [512, 256, 56, 56]
+raw_cudnn_convolution_forward_out weight aten, dims = [128, 256, 1, 1]
+raw_cudnn_convolution_forward_out aten, end = 29:593039, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 29:593432
+raw_cudnn_convolution_forward_out output aten, dims = [512, 128, 28, 28]
+raw_cudnn_convolution_forward_out input aten, dims = [512, 128, 56, 56]
+raw_cudnn_convolution_forward_out weight aten, dims = [128, 128, 3, 3]
+raw_cudnn_convolution_forward_out aten, end = 29:798460, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 29:798915
+raw_cudnn_convolution_forward_out output aten, dims = [512, 512, 28, 28]
+raw_cudnn_convolution_forward_out input aten, dims = [512, 128, 28, 28]
+raw_cudnn_convolution_forward_out weight aten, dims = [512, 128, 1, 1]
+raw_cudnn_convolution_forward_out aten, end = 29:953383, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 29:961515
+raw_cudnn_convolution_forward_out output aten, dims = [512, 512, 28, 28]
+raw_cudnn_convolution_forward_out input aten, dims = [512, 256, 56, 56]
+raw_cudnn_convolution_forward_out weight aten, dims = [512, 256, 1, 1]
+raw_cudnn_convolution_forward_out aten, end = 30:109005, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 30:109411
+raw_cudnn_convolution_forward_out output aten, dims = [512, 128, 28, 28]
+raw_cudnn_convolution_forward_out input aten, dims = [512, 512, 28, 28]
+raw_cudnn_convolution_forward_out weight aten, dims = [128, 512, 1, 1]
+raw_cudnn_convolution_forward_out aten, end = 30:281179, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 30:281686
+raw_cudnn_convolution_forward_out output aten, dims = [512, 128, 28, 28]
+raw_cudnn_convolution_forward_out input aten, dims = [512, 128, 28, 28]
+raw_cudnn_convolution_forward_out weight aten, dims = [128, 128, 3, 3]
+raw_cudnn_convolution_forward_out aten, end = 30:480756, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 30:481142
+raw_cudnn_convolution_forward_out output aten, dims = [512, 512, 28, 28]
+raw_cudnn_convolution_forward_out input aten, dims = [512, 128, 28, 28]
+raw_cudnn_convolution_forward_out weight aten, dims = [512, 128, 1, 1]
+raw_cudnn_convolution_forward_out aten, end = 30:496381, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 30:503422
+raw_cudnn_convolution_forward_out output aten, dims = [512, 128, 28, 28]
+raw_cudnn_convolution_forward_out input aten, dims = [512, 512, 28, 28]
+raw_cudnn_convolution_forward_out weight aten, dims = [128, 512, 1, 1]
+raw_cudnn_convolution_forward_out aten, end = 30:540771, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 30:541038
+raw_cudnn_convolution_forward_out output aten, dims = [512, 128, 28, 28]
+raw_cudnn_convolution_forward_out input aten, dims = [512, 128, 28, 28]
+raw_cudnn_convolution_forward_out weight aten, dims = [128, 128, 3, 3]
+raw_cudnn_convolution_forward_out aten, end = 30:556695, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 30:557006
+raw_cudnn_convolution_forward_out output aten, dims = [512, 512, 28, 28]
+raw_cudnn_convolution_forward_out input aten, dims = [512, 128, 28, 28]
+raw_cudnn_convolution_forward_out weight aten, dims = [512, 128, 1, 1]
+raw_cudnn_convolution_forward_out aten, end = 30:572317, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 30:572643
+raw_cudnn_convolution_forward_out output aten, dims = [512, 128, 28, 28]
+raw_cudnn_convolution_forward_out input aten, dims = [512, 512, 28, 28]
+raw_cudnn_convolution_forward_out weight aten, dims = [128, 512, 1, 1]
+raw_cudnn_convolution_forward_out aten, end = 30:609332, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 30:609575
+raw_cudnn_convolution_forward_out output aten, dims = [512, 128, 28, 28]
+raw_cudnn_convolution_forward_out input aten, dims = [512, 128, 28, 28]
+raw_cudnn_convolution_forward_out weight aten, dims = [128, 128, 3, 3]
+raw_cudnn_convolution_forward_out aten, end = 30:624519, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 30:624743
+raw_cudnn_convolution_forward_out output aten, dims = [512, 512, 28, 28]
+raw_cudnn_convolution_forward_out input aten, dims = [512, 128, 28, 28]
+raw_cudnn_convolution_forward_out weight aten, dims = [512, 128, 1, 1]
+raw_cudnn_convolution_forward_out aten, end = 30:639739, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 30:640016
+raw_cudnn_convolution_forward_out output aten, dims = [512, 256, 28, 28]
+raw_cudnn_convolution_forward_out input aten, dims = [512, 512, 28, 28]
+raw_cudnn_convolution_forward_out weight aten, dims = [256, 512, 1, 1]
+raw_cudnn_convolution_forward_out aten, end = 30:933414, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 30:933840
+raw_cudnn_convolution_forward_out output aten, dims = [512, 256, 14, 14]
+raw_cudnn_convolution_forward_out input aten, dims = [512, 256, 28, 28]
+raw_cudnn_convolution_forward_out weight aten, dims = [256, 256, 3, 3]
+raw_cudnn_convolution_forward_out aten, end = 31:113649, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 31:113979
+raw_cudnn_convolution_forward_out output aten, dims = [512, 1024, 14, 14]
+raw_cudnn_convolution_forward_out input aten, dims = [512, 256, 14, 14]
+raw_cudnn_convolution_forward_out weight aten, dims = [1024, 256, 1, 1]
+raw_cudnn_convolution_forward_out aten, end = 31:279492, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 31:286820
+raw_cudnn_convolution_forward_out output aten, dims = [512, 1024, 14, 14]
+raw_cudnn_convolution_forward_out input aten, dims = [512, 512, 28, 28]
+raw_cudnn_convolution_forward_out weight aten, dims = [1024, 512, 1, 1]
+raw_cudnn_convolution_forward_out aten, end = 31:422737, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 31:423133
+raw_cudnn_convolution_forward_out output aten, dims = [512, 256, 14, 14]
+raw_cudnn_convolution_forward_out input aten, dims = [512, 1024, 14, 14]
+raw_cudnn_convolution_forward_out weight aten, dims = [256, 1024, 1, 1]
+raw_cudnn_convolution_forward_out aten, end = 31:592641, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 31:593013
+raw_cudnn_convolution_forward_out output aten, dims = [512, 256, 14, 14]
+raw_cudnn_convolution_forward_out input aten, dims = [512, 256, 14, 14]
+raw_cudnn_convolution_forward_out weight aten, dims = [256, 256, 3, 3]
+raw_cudnn_convolution_forward_out aten, end = 31:787654, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 31:788111
+raw_cudnn_convolution_forward_out output aten, dims = [512, 1024, 14, 14]
+raw_cudnn_convolution_forward_out input aten, dims = [512, 256, 14, 14]
+raw_cudnn_convolution_forward_out weight aten, dims = [1024, 256, 1, 1]
+raw_cudnn_convolution_forward_out aten, end = 31:800290, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 31:807166
+raw_cudnn_convolution_forward_out output aten, dims = [512, 256, 14, 14]
+raw_cudnn_convolution_forward_out input aten, dims = [512, 1024, 14, 14]
+raw_cudnn_convolution_forward_out weight aten, dims = [256, 1024, 1, 1]
+raw_cudnn_convolution_forward_out aten, end = 31:831337, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 31:831655
+raw_cudnn_convolution_forward_out output aten, dims = [512, 256, 14, 14]
+raw_cudnn_convolution_forward_out input aten, dims = [512, 256, 14, 14]
+raw_cudnn_convolution_forward_out weight aten, dims = [256, 256, 3, 3]
+raw_cudnn_convolution_forward_out aten, end = 31:842965, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 31:843236
+raw_cudnn_convolution_forward_out output aten, dims = [512, 1024, 14, 14]
+raw_cudnn_convolution_forward_out input aten, dims = [512, 256, 14, 14]
+raw_cudnn_convolution_forward_out weight aten, dims = [1024, 256, 1, 1]
+raw_cudnn_convolution_forward_out aten, end = 31:855385, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 31:855736
+raw_cudnn_convolution_forward_out output aten, dims = [512, 256, 14, 14]
+raw_cudnn_convolution_forward_out input aten, dims = [512, 1024, 14, 14]
+raw_cudnn_convolution_forward_out weight aten, dims = [256, 1024, 1, 1]
+raw_cudnn_convolution_forward_out aten, end = 31:879200, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 31:879447
+raw_cudnn_convolution_forward_out output aten, dims = [512, 256, 14, 14]
+raw_cudnn_convolution_forward_out input aten, dims = [512, 256, 14, 14]
+raw_cudnn_convolution_forward_out weight aten, dims = [256, 256, 3, 3]
+raw_cudnn_convolution_forward_out aten, end = 31:890419, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 31:890724
+raw_cudnn_convolution_forward_out output aten, dims = [512, 1024, 14, 14]
+raw_cudnn_convolution_forward_out input aten, dims = [512, 256, 14, 14]
+raw_cudnn_convolution_forward_out weight aten, dims = [1024, 256, 1, 1]
+raw_cudnn_convolution_forward_out aten, end = 31:902653, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 31:902914
+raw_cudnn_convolution_forward_out output aten, dims = [512, 256, 14, 14]
+raw_cudnn_convolution_forward_out input aten, dims = [512, 1024, 14, 14]
+raw_cudnn_convolution_forward_out weight aten, dims = [256, 1024, 1, 1]
+raw_cudnn_convolution_forward_out aten, end = 31:925333, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 31:925568
+raw_cudnn_convolution_forward_out output aten, dims = [512, 256, 14, 14]
+raw_cudnn_convolution_forward_out input aten, dims = [512, 256, 14, 14]
+raw_cudnn_convolution_forward_out weight aten, dims = [256, 256, 3, 3]
+raw_cudnn_convolution_forward_out aten, end = 31:936545, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 31:936783
+raw_cudnn_convolution_forward_out output aten, dims = [512, 1024, 14, 14]
+raw_cudnn_convolution_forward_out input aten, dims = [512, 256, 14, 14]
+raw_cudnn_convolution_forward_out weight aten, dims = [1024, 256, 1, 1]
+raw_cudnn_convolution_forward_out aten, end = 31:948721, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 31:948972
+raw_cudnn_convolution_forward_out output aten, dims = [512, 256, 14, 14]
+raw_cudnn_convolution_forward_out input aten, dims = [512, 1024, 14, 14]
+raw_cudnn_convolution_forward_out weight aten, dims = [256, 1024, 1, 1]
+raw_cudnn_convolution_forward_out aten, end = 31:971421, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 31:971689
+raw_cudnn_convolution_forward_out output aten, dims = [512, 256, 14, 14]
+raw_cudnn_convolution_forward_out input aten, dims = [512, 256, 14, 14]
+raw_cudnn_convolution_forward_out weight aten, dims = [256, 256, 3, 3]
+raw_cudnn_convolution_forward_out aten, end = 31:982633, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 31:982889
+raw_cudnn_convolution_forward_out output aten, dims = [512, 1024, 14, 14]
+raw_cudnn_convolution_forward_out input aten, dims = [512, 256, 14, 14]
+raw_cudnn_convolution_forward_out weight aten, dims = [1024, 256, 1, 1]
+raw_cudnn_convolution_forward_out aten, end = 31:994856, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 31:995104
+raw_cudnn_convolution_forward_out output aten, dims = [512, 256, 14, 14]
+raw_cudnn_convolution_forward_out input aten, dims = [512, 1024, 14, 14]
+raw_cudnn_convolution_forward_out weight aten, dims = [256, 1024, 1, 1]
+raw_cudnn_convolution_forward_out aten, end = 32:017509, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 32:017722
+raw_cudnn_convolution_forward_out output aten, dims = [512, 256, 14, 14]
+raw_cudnn_convolution_forward_out input aten, dims = [512, 256, 14, 14]
+raw_cudnn_convolution_forward_out weight aten, dims = [256, 256, 3, 3]
+raw_cudnn_convolution_forward_out aten, end = 32:028606, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 32:028837
+raw_cudnn_convolution_forward_out output aten, dims = [512, 1024, 14, 14]
+raw_cudnn_convolution_forward_out input aten, dims = [512, 256, 14, 14]
+raw_cudnn_convolution_forward_out weight aten, dims = [1024, 256, 1, 1]
+raw_cudnn_convolution_forward_out aten, end = 32:040656, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 32:040882
+raw_cudnn_convolution_forward_out output aten, dims = [512, 256, 14, 14]
+raw_cudnn_convolution_forward_out input aten, dims = [512, 1024, 14, 14]
+raw_cudnn_convolution_forward_out weight aten, dims = [256, 1024, 1, 1]
+raw_cudnn_convolution_forward_out aten, end = 32:063200, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 32:063456
+raw_cudnn_convolution_forward_out output aten, dims = [512, 256, 14, 14]
+raw_cudnn_convolution_forward_out input aten, dims = [512, 256, 14, 14]
+raw_cudnn_convolution_forward_out weight aten, dims = [256, 256, 3, 3]
+raw_cudnn_convolution_forward_out aten, end = 32:074337, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 32:074569
+raw_cudnn_convolution_forward_out output aten, dims = [512, 1024, 14, 14]
+raw_cudnn_convolution_forward_out input aten, dims = [512, 256, 14, 14]
+raw_cudnn_convolution_forward_out weight aten, dims = [1024, 256, 1, 1]
+raw_cudnn_convolution_forward_out aten, end = 32:086416, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 32:086696
+raw_cudnn_convolution_forward_out output aten, dims = [512, 256, 14, 14]
+raw_cudnn_convolution_forward_out input aten, dims = [512, 1024, 14, 14]
+raw_cudnn_convolution_forward_out weight aten, dims = [256, 1024, 1, 1]
+raw_cudnn_convolution_forward_out aten, end = 32:108995, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 32:109222
+raw_cudnn_convolution_forward_out output aten, dims = [512, 256, 14, 14]
+raw_cudnn_convolution_forward_out input aten, dims = [512, 256, 14, 14]
+raw_cudnn_convolution_forward_out weight aten, dims = [256, 256, 3, 3]
+raw_cudnn_convolution_forward_out aten, end = 32:120110, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 32:120333
+raw_cudnn_convolution_forward_out output aten, dims = [512, 1024, 14, 14]
+raw_cudnn_convolution_forward_out input aten, dims = [512, 256, 14, 14]
+raw_cudnn_convolution_forward_out weight aten, dims = [1024, 256, 1, 1]
+raw_cudnn_convolution_forward_out aten, end = 32:132319, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 32:132571
+raw_cudnn_convolution_forward_out output aten, dims = [512, 256, 14, 14]
+raw_cudnn_convolution_forward_out input aten, dims = [512, 1024, 14, 14]
+raw_cudnn_convolution_forward_out weight aten, dims = [256, 1024, 1, 1]
+raw_cudnn_convolution_forward_out aten, end = 32:155079, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 32:155298
+raw_cudnn_convolution_forward_out output aten, dims = [512, 256, 14, 14]
+raw_cudnn_convolution_forward_out input aten, dims = [512, 256, 14, 14]
+raw_cudnn_convolution_forward_out weight aten, dims = [256, 256, 3, 3]
+raw_cudnn_convolution_forward_out aten, end = 32:166283, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 32:166514
+raw_cudnn_convolution_forward_out output aten, dims = [512, 1024, 14, 14]
+raw_cudnn_convolution_forward_out input aten, dims = [512, 256, 14, 14]
+raw_cudnn_convolution_forward_out weight aten, dims = [1024, 256, 1, 1]
+raw_cudnn_convolution_forward_out aten, end = 32:178467, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 32:178693
+raw_cudnn_convolution_forward_out output aten, dims = [512, 256, 14, 14]
+raw_cudnn_convolution_forward_out input aten, dims = [512, 1024, 14, 14]
+raw_cudnn_convolution_forward_out weight aten, dims = [256, 1024, 1, 1]
+raw_cudnn_convolution_forward_out aten, end = 32:201141, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 32:201367
+raw_cudnn_convolution_forward_out output aten, dims = [512, 256, 14, 14]
+raw_cudnn_convolution_forward_out input aten, dims = [512, 256, 14, 14]
+raw_cudnn_convolution_forward_out weight aten, dims = [256, 256, 3, 3]
+raw_cudnn_convolution_forward_out aten, end = 32:212343, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 32:212575
+raw_cudnn_convolution_forward_out output aten, dims = [512, 1024, 14, 14]
+raw_cudnn_convolution_forward_out input aten, dims = [512, 256, 14, 14]
+raw_cudnn_convolution_forward_out weight aten, dims = [1024, 256, 1, 1]
+raw_cudnn_convolution_forward_out aten, end = 32:224509, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 32:224771
+raw_cudnn_convolution_forward_out output aten, dims = [512, 256, 14, 14]
+raw_cudnn_convolution_forward_out input aten, dims = [512, 1024, 14, 14]
+raw_cudnn_convolution_forward_out weight aten, dims = [256, 1024, 1, 1]
+raw_cudnn_convolution_forward_out aten, end = 32:247220, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 32:247510
+raw_cudnn_convolution_forward_out output aten, dims = [512, 256, 14, 14]
+raw_cudnn_convolution_forward_out input aten, dims = [512, 256, 14, 14]
+raw_cudnn_convolution_forward_out weight aten, dims = [256, 256, 3, 3]
+raw_cudnn_convolution_forward_out aten, end = 32:258487, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 32:258708
+raw_cudnn_convolution_forward_out output aten, dims = [512, 1024, 14, 14]
+raw_cudnn_convolution_forward_out input aten, dims = [512, 256, 14, 14]
+raw_cudnn_convolution_forward_out weight aten, dims = [1024, 256, 1, 1]
+raw_cudnn_convolution_forward_out aten, end = 32:270672, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 32:270934
+raw_cudnn_convolution_forward_out output aten, dims = [512, 256, 14, 14]
+raw_cudnn_convolution_forward_out input aten, dims = [512, 1024, 14, 14]
+raw_cudnn_convolution_forward_out weight aten, dims = [256, 1024, 1, 1]
+raw_cudnn_convolution_forward_out aten, end = 32:293302, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 32:293531
+raw_cudnn_convolution_forward_out output aten, dims = [512, 256, 14, 14]
+raw_cudnn_convolution_forward_out input aten, dims = [512, 256, 14, 14]
+raw_cudnn_convolution_forward_out weight aten, dims = [256, 256, 3, 3]
+raw_cudnn_convolution_forward_out aten, end = 32:304499, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 32:304705
+raw_cudnn_convolution_forward_out output aten, dims = [512, 1024, 14, 14]
+raw_cudnn_convolution_forward_out input aten, dims = [512, 256, 14, 14]
+raw_cudnn_convolution_forward_out weight aten, dims = [1024, 256, 1, 1]
+raw_cudnn_convolution_forward_out aten, end = 32:316668, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 32:316911
+raw_cudnn_convolution_forward_out output aten, dims = [512, 256, 14, 14]
+raw_cudnn_convolution_forward_out input aten, dims = [512, 1024, 14, 14]
+raw_cudnn_convolution_forward_out weight aten, dims = [256, 1024, 1, 1]
+raw_cudnn_convolution_forward_out aten, end = 32:339361, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 32:339563
+raw_cudnn_convolution_forward_out output aten, dims = [512, 256, 14, 14]
+raw_cudnn_convolution_forward_out input aten, dims = [512, 256, 14, 14]
+raw_cudnn_convolution_forward_out weight aten, dims = [256, 256, 3, 3]
+raw_cudnn_convolution_forward_out aten, end = 32:350543, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 32:350774
+raw_cudnn_convolution_forward_out output aten, dims = [512, 1024, 14, 14]
+raw_cudnn_convolution_forward_out input aten, dims = [512, 256, 14, 14]
+raw_cudnn_convolution_forward_out weight aten, dims = [1024, 256, 1, 1]
+raw_cudnn_convolution_forward_out aten, end = 32:362722, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 32:362973
+raw_cudnn_convolution_forward_out output aten, dims = [512, 256, 14, 14]
+raw_cudnn_convolution_forward_out input aten, dims = [512, 1024, 14, 14]
+raw_cudnn_convolution_forward_out weight aten, dims = [256, 1024, 1, 1]
+raw_cudnn_convolution_forward_out aten, end = 32:385384, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 32:385610
+raw_cudnn_convolution_forward_out output aten, dims = [512, 256, 14, 14]
+raw_cudnn_convolution_forward_out input aten, dims = [512, 256, 14, 14]
+raw_cudnn_convolution_forward_out weight aten, dims = [256, 256, 3, 3]
+raw_cudnn_convolution_forward_out aten, end = 32:396605, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 32:396844
+raw_cudnn_convolution_forward_out output aten, dims = [512, 1024, 14, 14]
+raw_cudnn_convolution_forward_out input aten, dims = [512, 256, 14, 14]
+raw_cudnn_convolution_forward_out weight aten, dims = [1024, 256, 1, 1]
+raw_cudnn_convolution_forward_out aten, end = 32:408783, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 32:409011
+raw_cudnn_convolution_forward_out output aten, dims = [512, 256, 14, 14]
+raw_cudnn_convolution_forward_out input aten, dims = [512, 1024, 14, 14]
+raw_cudnn_convolution_forward_out weight aten, dims = [256, 1024, 1, 1]
+raw_cudnn_convolution_forward_out aten, end = 32:431473, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 32:431725
+raw_cudnn_convolution_forward_out output aten, dims = [512, 256, 14, 14]
+raw_cudnn_convolution_forward_out input aten, dims = [512, 256, 14, 14]
+raw_cudnn_convolution_forward_out weight aten, dims = [256, 256, 3, 3]
+raw_cudnn_convolution_forward_out aten, end = 32:442694, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 32:442920
+raw_cudnn_convolution_forward_out output aten, dims = [512, 1024, 14, 14]
+raw_cudnn_convolution_forward_out input aten, dims = [512, 256, 14, 14]
+raw_cudnn_convolution_forward_out weight aten, dims = [1024, 256, 1, 1]
+raw_cudnn_convolution_forward_out aten, end = 32:454892, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 32:455132
+raw_cudnn_convolution_forward_out output aten, dims = [512, 256, 14, 14]
+raw_cudnn_convolution_forward_out input aten, dims = [512, 1024, 14, 14]
+raw_cudnn_convolution_forward_out weight aten, dims = [256, 1024, 1, 1]
+raw_cudnn_convolution_forward_out aten, end = 32:477561, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 32:477782
+raw_cudnn_convolution_forward_out output aten, dims = [512, 256, 14, 14]
+raw_cudnn_convolution_forward_out input aten, dims = [512, 256, 14, 14]
+raw_cudnn_convolution_forward_out weight aten, dims = [256, 256, 3, 3]
+raw_cudnn_convolution_forward_out aten, end = 32:488768, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 32:488994
+raw_cudnn_convolution_forward_out output aten, dims = [512, 1024, 14, 14]
+raw_cudnn_convolution_forward_out input aten, dims = [512, 256, 14, 14]
+raw_cudnn_convolution_forward_out weight aten, dims = [1024, 256, 1, 1]
+raw_cudnn_convolution_forward_out aten, end = 32:500964, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 32:501209
+raw_cudnn_convolution_forward_out output aten, dims = [512, 256, 14, 14]
+raw_cudnn_convolution_forward_out input aten, dims = [512, 1024, 14, 14]
+raw_cudnn_convolution_forward_out weight aten, dims = [256, 1024, 1, 1]
+raw_cudnn_convolution_forward_out aten, end = 32:523673, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 32:523910
+raw_cudnn_convolution_forward_out output aten, dims = [512, 256, 14, 14]
+raw_cudnn_convolution_forward_out input aten, dims = [512, 256, 14, 14]
+raw_cudnn_convolution_forward_out weight aten, dims = [256, 256, 3, 3]
+raw_cudnn_convolution_forward_out aten, end = 32:534877, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 32:535082
+raw_cudnn_convolution_forward_out output aten, dims = [512, 1024, 14, 14]
+raw_cudnn_convolution_forward_out input aten, dims = [512, 256, 14, 14]
+raw_cudnn_convolution_forward_out weight aten, dims = [1024, 256, 1, 1]
+raw_cudnn_convolution_forward_out aten, end = 32:547031, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 32:547282
+raw_cudnn_convolution_forward_out output aten, dims = [512, 256, 14, 14]
+raw_cudnn_convolution_forward_out input aten, dims = [512, 1024, 14, 14]
+raw_cudnn_convolution_forward_out weight aten, dims = [256, 1024, 1, 1]
+raw_cudnn_convolution_forward_out aten, end = 32:569680, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 32:569895
+raw_cudnn_convolution_forward_out output aten, dims = [512, 256, 14, 14]
+raw_cudnn_convolution_forward_out input aten, dims = [512, 256, 14, 14]
+raw_cudnn_convolution_forward_out weight aten, dims = [256, 256, 3, 3]
+raw_cudnn_convolution_forward_out aten, end = 32:580905, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 32:581136
+raw_cudnn_convolution_forward_out output aten, dims = [512, 1024, 14, 14]
+raw_cudnn_convolution_forward_out input aten, dims = [512, 256, 14, 14]
+raw_cudnn_convolution_forward_out weight aten, dims = [1024, 256, 1, 1]
+raw_cudnn_convolution_forward_out aten, end = 32:593056, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 32:593303
+raw_cudnn_convolution_forward_out output aten, dims = [512, 256, 14, 14]
+raw_cudnn_convolution_forward_out input aten, dims = [512, 1024, 14, 14]
+raw_cudnn_convolution_forward_out weight aten, dims = [256, 1024, 1, 1]
+raw_cudnn_convolution_forward_out aten, end = 32:615731, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 32:615996
+raw_cudnn_convolution_forward_out output aten, dims = [512, 256, 14, 14]
+raw_cudnn_convolution_forward_out input aten, dims = [512, 256, 14, 14]
+raw_cudnn_convolution_forward_out weight aten, dims = [256, 256, 3, 3]
+raw_cudnn_convolution_forward_out aten, end = 32:626969, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 32:627197
+raw_cudnn_convolution_forward_out output aten, dims = [512, 1024, 14, 14]
+raw_cudnn_convolution_forward_out input aten, dims = [512, 256, 14, 14]
+raw_cudnn_convolution_forward_out weight aten, dims = [1024, 256, 1, 1]
+raw_cudnn_convolution_forward_out aten, end = 32:639136, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 32:639383
+raw_cudnn_convolution_forward_out output aten, dims = [512, 256, 14, 14]
+raw_cudnn_convolution_forward_out input aten, dims = [512, 1024, 14, 14]
+raw_cudnn_convolution_forward_out weight aten, dims = [256, 1024, 1, 1]
+raw_cudnn_convolution_forward_out aten, end = 32:661799, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 32:662030
+raw_cudnn_convolution_forward_out output aten, dims = [512, 256, 14, 14]
+raw_cudnn_convolution_forward_out input aten, dims = [512, 256, 14, 14]
+raw_cudnn_convolution_forward_out weight aten, dims = [256, 256, 3, 3]
+raw_cudnn_convolution_forward_out aten, end = 32:672995, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 32:673248
+raw_cudnn_convolution_forward_out output aten, dims = [512, 1024, 14, 14]
+raw_cudnn_convolution_forward_out input aten, dims = [512, 256, 14, 14]
+raw_cudnn_convolution_forward_out weight aten, dims = [1024, 256, 1, 1]
+raw_cudnn_convolution_forward_out aten, end = 32:685202, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 32:685460
+raw_cudnn_convolution_forward_out output aten, dims = [512, 256, 14, 14]
+raw_cudnn_convolution_forward_out input aten, dims = [512, 1024, 14, 14]
+raw_cudnn_convolution_forward_out weight aten, dims = [256, 1024, 1, 1]
+raw_cudnn_convolution_forward_out aten, end = 32:707868, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 32:708096
+raw_cudnn_convolution_forward_out output aten, dims = [512, 256, 14, 14]
+raw_cudnn_convolution_forward_out input aten, dims = [512, 256, 14, 14]
+raw_cudnn_convolution_forward_out weight aten, dims = [256, 256, 3, 3]
+raw_cudnn_convolution_forward_out aten, end = 32:719091, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 32:719317
+raw_cudnn_convolution_forward_out output aten, dims = [512, 1024, 14, 14]
+raw_cudnn_convolution_forward_out input aten, dims = [512, 256, 14, 14]
+raw_cudnn_convolution_forward_out weight aten, dims = [1024, 256, 1, 1]
+raw_cudnn_convolution_forward_out aten, end = 32:731262, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 32:731527
+raw_cudnn_convolution_forward_out output aten, dims = [512, 256, 14, 14]
+raw_cudnn_convolution_forward_out input aten, dims = [512, 1024, 14, 14]
+raw_cudnn_convolution_forward_out weight aten, dims = [256, 1024, 1, 1]
+raw_cudnn_convolution_forward_out aten, end = 32:753936, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 32:754163
+raw_cudnn_convolution_forward_out output aten, dims = [512, 256, 14, 14]
+raw_cudnn_convolution_forward_out input aten, dims = [512, 256, 14, 14]
+raw_cudnn_convolution_forward_out weight aten, dims = [256, 256, 3, 3]
+raw_cudnn_convolution_forward_out aten, end = 32:765147, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 32:765366
+raw_cudnn_convolution_forward_out output aten, dims = [512, 1024, 14, 14]
+raw_cudnn_convolution_forward_out input aten, dims = [512, 256, 14, 14]
+raw_cudnn_convolution_forward_out weight aten, dims = [1024, 256, 1, 1]
+raw_cudnn_convolution_forward_out aten, end = 32:777296, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 32:777570
+raw_cudnn_convolution_forward_out output aten, dims = [512, 512, 14, 14]
+raw_cudnn_convolution_forward_out input aten, dims = [512, 1024, 14, 14]
+raw_cudnn_convolution_forward_out weight aten, dims = [512, 1024, 1, 1]
+raw_cudnn_convolution_forward_out aten, end = 33:081460, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 33:081838
+raw_cudnn_convolution_forward_out output aten, dims = [512, 512, 7, 7]
+raw_cudnn_convolution_forward_out input aten, dims = [512, 512, 14, 14]
+raw_cudnn_convolution_forward_out weight aten, dims = [512, 512, 3, 3]
+raw_cudnn_convolution_forward_out aten, end = 33:349797, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 33:350207
+raw_cudnn_convolution_forward_out output aten, dims = [512, 2048, 7, 7]
+raw_cudnn_convolution_forward_out input aten, dims = [512, 512, 7, 7]
+raw_cudnn_convolution_forward_out weight aten, dims = [2048, 512, 1, 1]
+raw_cudnn_convolution_forward_out aten, end = 33:629718, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 33:630233
+raw_cudnn_convolution_forward_out output aten, dims = [512, 2048, 7, 7]
+raw_cudnn_convolution_forward_out input aten, dims = [512, 1024, 14, 14]
+raw_cudnn_convolution_forward_out weight aten, dims = [2048, 1024, 1, 1]
+raw_cudnn_convolution_forward_out aten, end = 33:759045, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 33:759463
+raw_cudnn_convolution_forward_out output aten, dims = [512, 512, 7, 7]
+raw_cudnn_convolution_forward_out input aten, dims = [512, 2048, 7, 7]
+raw_cudnn_convolution_forward_out weight aten, dims = [512, 2048, 1, 1]
+raw_cudnn_convolution_forward_out aten, end = 34:105149, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 34:105710
+raw_cudnn_convolution_forward_out output aten, dims = [512, 512, 7, 7]
+raw_cudnn_convolution_forward_out input aten, dims = [512, 512, 7, 7]
+raw_cudnn_convolution_forward_out weight aten, dims = [512, 512, 3, 3]
+raw_cudnn_convolution_forward_out aten, end = 34:434959, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 34:435398
+raw_cudnn_convolution_forward_out output aten, dims = [512, 2048, 7, 7]
+raw_cudnn_convolution_forward_out input aten, dims = [512, 512, 7, 7]
+raw_cudnn_convolution_forward_out weight aten, dims = [2048, 512, 1, 1]
+raw_cudnn_convolution_forward_out aten, end = 34:446453, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 34:446793
+raw_cudnn_convolution_forward_out output aten, dims = [512, 512, 7, 7]
+raw_cudnn_convolution_forward_out input aten, dims = [512, 2048, 7, 7]
+raw_cudnn_convolution_forward_out weight aten, dims = [512, 2048, 1, 1]
+raw_cudnn_convolution_forward_out aten, end = 34:464540, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 34:464823
+raw_cudnn_convolution_forward_out output aten, dims = [512, 512, 7, 7]
+raw_cudnn_convolution_forward_out input aten, dims = [512, 512, 7, 7]
+raw_cudnn_convolution_forward_out weight aten, dims = [512, 512, 3, 3]
+raw_cudnn_convolution_forward_out aten, end = 34:475179, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 34:475453
+raw_cudnn_convolution_forward_out output aten, dims = [512, 2048, 7, 7]
+raw_cudnn_convolution_forward_out input aten, dims = [512, 512, 7, 7]
+raw_cudnn_convolution_forward_out weight aten, dims = [2048, 512, 1, 1]
+raw_cudnn_convolution_forward_out aten, end = 34:486535, sync = 1
+[python] forward-nograd===: 1565283334779
+[python] ===forward: 1565283334779
+raw_cudnn_convolution_forward_out aten, start = 34:782827
+raw_cudnn_convolution_forward_out output aten, dims = [512, 64, 112, 112]
+raw_cudnn_convolution_forward_out input aten, dims = [512, 3, 224, 224]
+raw_cudnn_convolution_forward_out weight aten, dims = [64, 3, 7, 7]
+raw_cudnn_convolution_forward_out aten, end = 34:834370, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 34:838516
+raw_cudnn_convolution_forward_out output aten, dims = [512, 64, 56, 56]
+raw_cudnn_convolution_forward_out input aten, dims = [512, 64, 56, 56]
+raw_cudnn_convolution_forward_out weight aten, dims = [64, 64, 1, 1]
+raw_cudnn_convolution_forward_out aten, end = 34:886587, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 34:888134
+raw_cudnn_convolution_forward_out output aten, dims = [512, 64, 56, 56]
+raw_cudnn_convolution_forward_out input aten, dims = [512, 64, 56, 56]
+raw_cudnn_convolution_forward_out weight aten, dims = [64, 64, 3, 3]
+raw_cudnn_convolution_forward_out aten, end = 34:909235, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 34:912423
+raw_cudnn_convolution_forward_out output aten, dims = [512, 256, 56, 56]
+raw_cudnn_convolution_forward_out input aten, dims = [512, 64, 56, 56]
+raw_cudnn_convolution_forward_out weight aten, dims = [256, 64, 1, 1]
+raw_cudnn_convolution_forward_out aten, end = 34:931346, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 34:940163
+raw_cudnn_convolution_forward_out output aten, dims = [512, 256, 56, 56]
+raw_cudnn_convolution_forward_out input aten, dims = [512, 64, 56, 56]
+raw_cudnn_convolution_forward_out weight aten, dims = [256, 64, 1, 1]
+raw_cudnn_convolution_forward_out aten, end = 34:966810, sync = 1

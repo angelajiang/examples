@@ -1,0 +1,1368 @@
+['alexnet', 'densenet121', 'densenet161', 'densenet169', 'densenet201', 'inception_v3', 'resnet101', 'resnet152', 'resnet18', 'resnet34', 'resnet50', 'squeezenet1_0', 'squeezenet1_1', 'vgg11', 'vgg11_bn', 'vgg13', 'vgg13_bn', 'vgg16', 'vgg16_bn', 'vgg19', 'vgg19_bn']
+=> creating model 'resnet18'
+========================
+[python] ===forward: 1565226874475
+raw_cudnn_convolution_forward_out aten, start = 75:536071
+raw_cudnn_convolution_forward_out aten, end = 75:735826, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 75:762360
+raw_cudnn_convolution_forward_out aten, end = 75:930192, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 75:943418
+raw_cudnn_convolution_forward_out aten, end = 75:950340, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 75:963428
+raw_cudnn_convolution_forward_out aten, end = 75:970793, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 75:983430
+raw_cudnn_convolution_forward_out aten, end = 75:990387, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 76:003430
+raw_cudnn_convolution_forward_out aten, end = 76:065661, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 76:078329
+raw_cudnn_convolution_forward_out aten, end = 76:185747, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 76:186126
+raw_cudnn_convolution_forward_out aten, end = 76:195093, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 76:195505
+raw_cudnn_convolution_forward_out aten, end = 76:207804, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 76:208136
+raw_cudnn_convolution_forward_out aten, end = 76:220461, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 76:220789
+raw_cudnn_convolution_forward_out aten, end = 76:277223, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 76:277543
+raw_cudnn_convolution_forward_out aten, end = 76:380972, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 76:381255
+raw_cudnn_convolution_forward_out aten, end = 76:388303, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 76:388637
+raw_cudnn_convolution_forward_out aten, end = 76:399901, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 76:400234
+raw_cudnn_convolution_forward_out aten, end = 76:405991, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 76:406329
+raw_cudnn_convolution_forward_out aten, end = 76:484822, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 76:494067
+raw_cudnn_convolution_forward_out aten, end = 76:664060, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 76:664382
+raw_cudnn_convolution_forward_out aten, end = 76:670526, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 76:670918
+raw_cudnn_convolution_forward_out aten, end = 76:681958, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 76:682284
+raw_cudnn_convolution_forward_out aten, end = 76:687177, sync = 1
+[python] forward===: 1565226876905
+[python] ===backward: 1565226876907
+NUM TENSORS: 1
+raw_cudnn_convolution_backward_input_out aten, start = 76:911245
+raw_cudnn_convolution_backward_input_out aten, end = 77:078114, sync = 1
+raw_cudnn_convolution_backward_weight_out aten, start = 77:078158
+raw_cudnn_convolution_backward_weight_out aten, end = 77:211432, sync = 1
+raw_cudnn_convolution_backward_input_out aten, start = 77:211667
+raw_cudnn_convolution_backward_input_out aten, end = 77:216740, sync = 1
+raw_cudnn_convolution_backward_weight_out aten, start = 77:216766
+raw_cudnn_convolution_backward_weight_out aten, end = 77:221039, sync = 1
+raw_cudnn_convolution_backward_input_out aten, start = 77:221232
+raw_cudnn_convolution_backward_input_out aten, end = 77:242527, sync = 1
+raw_cudnn_convolution_backward_weight_out aten, start = 77:242561
+raw_cudnn_convolution_backward_weight_out aten, end = 77:252857, sync = 1
+raw_cudnn_convolution_backward_input_out aten, start = 77:252998
+raw_cudnn_convolution_backward_input_out aten, end = 77:264101, sync = 1
+raw_cudnn_convolution_backward_weight_out aten, start = 77:264139
+raw_cudnn_convolution_backward_weight_out aten, end = 77:268362, sync = 1
+raw_cudnn_convolution_backward_input_out aten, start = 77:268544
+raw_cudnn_convolution_backward_input_out aten, end = 77:368117, sync = 1
+raw_cudnn_convolution_backward_weight_out aten, start = 77:368152
+raw_cudnn_convolution_backward_weight_out aten, end = 77:419486, sync = 1
+raw_cudnn_convolution_backward_input_out aten, start = 77:419821
+raw_cudnn_convolution_backward_input_out aten, end = 77:529443, sync = 1
+raw_cudnn_convolution_backward_weight_out aten, start = 77:529483
+raw_cudnn_convolution_backward_weight_out aten, end = 77:626060, sync = 1
+raw_cudnn_convolution_backward_input_out aten, start = 77:626305
+raw_cudnn_convolution_backward_input_out aten, end = 77:632719, sync = 1
+raw_cudnn_convolution_backward_weight_out aten, start = 77:632748
+raw_cudnn_convolution_backward_weight_out aten, end = 77:637702, sync = 1
+raw_cudnn_convolution_backward_input_out aten, start = 77:637910
+raw_cudnn_convolution_backward_input_out aten, end = 77:659016, sync = 1
+raw_cudnn_convolution_backward_weight_out aten, start = 77:659051
+raw_cudnn_convolution_backward_weight_out aten, end = 77:669830, sync = 1
+raw_cudnn_convolution_backward_input_out aten, start = 77:669981
+raw_cudnn_convolution_backward_input_out aten, end = 77:681002, sync = 1
+raw_cudnn_convolution_backward_weight_out aten, start = 77:681034
+raw_cudnn_convolution_backward_weight_out aten, end = 77:692840, sync = 1
+raw_cudnn_convolution_backward_input_out aten, start = 77:693023
+raw_cudnn_convolution_backward_input_out aten, end = 77:775351, sync = 1
+raw_cudnn_convolution_backward_weight_out aten, start = 77:775387
+raw_cudnn_convolution_backward_weight_out aten, end = 77:819707, sync = 1
+raw_cudnn_convolution_backward_input_out aten, start = 77:819984
+raw_cudnn_convolution_backward_input_out aten, end = 77:929425, sync = 1
+raw_cudnn_convolution_backward_weight_out aten, start = 77:932188
+raw_cudnn_convolution_backward_weight_out aten, end = 78:030883, sync = 1
+raw_cudnn_convolution_backward_input_out aten, start = 78:031088
+raw_cudnn_convolution_backward_input_out aten, end = 78:040319, sync = 1
+raw_cudnn_convolution_backward_weight_out aten, start = 78:040351
+raw_cudnn_convolution_backward_weight_out aten, end = 78:046713, sync = 1
+raw_cudnn_convolution_backward_input_out aten, start = 78:046905
+raw_cudnn_convolution_backward_input_out aten, end = 78:070603, sync = 1
+raw_cudnn_convolution_backward_weight_out aten, start = 78:070646
+raw_cudnn_convolution_backward_weight_out aten, end = 78:094752, sync = 1
+raw_cudnn_convolution_backward_input_out aten, start = 78:094940
+raw_cudnn_convolution_backward_input_out aten, end = 78:108003, sync = 1
+raw_cudnn_convolution_backward_weight_out aten, start = 78:108038
+raw_cudnn_convolution_backward_weight_out aten, end = 78:115152, sync = 1
+raw_cudnn_convolution_backward_input_out aten, start = 78:115352
+raw_cudnn_convolution_backward_input_out aten, end = 78:212425, sync = 1
+raw_cudnn_convolution_backward_weight_out aten, start = 78:212464
+raw_cudnn_convolution_backward_weight_out aten, end = 78:253436, sync = 1
+raw_cudnn_convolution_backward_input_out aten, start = 78:253657
+raw_cudnn_convolution_backward_input_out aten, end = 78:397020, sync = 1
+raw_cudnn_convolution_backward_weight_out aten, start = 78:397058
+raw_cudnn_convolution_backward_weight_out aten, end = 78:531618, sync = 1
+raw_cudnn_convolution_backward_input_out aten, start = 78:531852
+raw_cudnn_convolution_backward_input_out aten, end = 78:545702, sync = 1
+raw_cudnn_convolution_backward_weight_out aten, start = 78:545733
+raw_cudnn_convolution_backward_weight_out aten, end = 78:559456, sync = 1
+raw_cudnn_convolution_backward_input_out aten, start = 78:559669
+raw_cudnn_convolution_backward_input_out aten, end = 78:575918, sync = 1
+raw_cudnn_convolution_backward_weight_out aten, start = 78:575945
+raw_cudnn_convolution_backward_weight_out aten, end = 78:589657, sync = 1
+raw_cudnn_convolution_backward_input_out aten, start = 78:589819
+raw_cudnn_convolution_backward_input_out aten, end = 78:603691, sync = 1
+raw_cudnn_convolution_backward_weight_out aten, start = 78:603722
+raw_cudnn_convolution_backward_weight_out aten, end = 78:617179, sync = 1
+raw_cudnn_convolution_backward_weight_out aten, start = 78:621727
+raw_cudnn_convolution_backward_weight_out aten, end = 78:903418, sync = 1
+[python] backward===: 1565226878903
+Epoch: [0][   0/5004]	Time 14.810 (14.810)	Data 10.364 (10.364)	Loss 7.0664e+00 (7.0664e+00)	Acc@1   0.00 (  0.00)	Acc@5   0.00 (  0.00)
+========================
+[python] ===forward: 1565226878916
+raw_cudnn_convolution_forward_out aten, start = 78:917942
+raw_cudnn_convolution_forward_out aten, end = 78:957389, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 78:971855
+raw_cudnn_convolution_forward_out aten, end = 78:996816, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 79:010754
+raw_cudnn_convolution_forward_out aten, end = 79:017641, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 79:030765
+raw_cudnn_convolution_forward_out aten, end = 79:038065, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 79:050762
+raw_cudnn_convolution_forward_out aten, end = 79:057656, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 79:064585
+raw_cudnn_convolution_forward_out aten, end = 79:076340, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 79:085459
+raw_cudnn_convolution_forward_out aten, end = 79:097474, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 79:097737
+raw_cudnn_convolution_forward_out aten, end = 79:100096, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 79:100386
+raw_cudnn_convolution_forward_out aten, end = 79:111433, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 79:111717
+raw_cudnn_convolution_forward_out aten, end = 79:119200, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 79:119483
+raw_cudnn_convolution_forward_out aten, end = 79:127634, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 79:127926
+raw_cudnn_convolution_forward_out aten, end = 79:133512, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 79:133743
+raw_cudnn_convolution_forward_out aten, end = 79:135152, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 79:135434
+raw_cudnn_convolution_forward_out aten, end = 79:141542, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 79:141839
+raw_cudnn_convolution_forward_out aten, end = 79:147404, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 79:147743
+raw_cudnn_convolution_forward_out aten, end = 79:154563, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 79:154839
+raw_cudnn_convolution_forward_out aten, end = 79:159557, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 79:159779
+raw_cudnn_convolution_forward_out aten, end = 79:160783, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 79:161054
+raw_cudnn_convolution_forward_out aten, end = 79:166025, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 79:166273
+raw_cudnn_convolution_forward_out aten, end = 79:170992, sync = 1
+[python] forward===: 1565226879172
+[python] ===backward: 1565226879173
+NUM TENSORS: 1
+raw_cudnn_convolution_backward_input_out aten, start = 79:174896
+raw_cudnn_convolution_backward_input_out aten, end = 79:180392, sync = 1
+raw_cudnn_convolution_backward_weight_out aten, start = 79:180427
+raw_cudnn_convolution_backward_weight_out aten, end = 79:184684, sync = 1
+raw_cudnn_convolution_backward_input_out aten, start = 79:184927
+raw_cudnn_convolution_backward_input_out aten, end = 79:189940, sync = 1
+raw_cudnn_convolution_backward_weight_out aten, start = 79:189968
+raw_cudnn_convolution_backward_weight_out aten, end = 79:194155, sync = 1
+raw_cudnn_convolution_backward_input_out aten, start = 79:194367
+raw_cudnn_convolution_backward_input_out aten, end = 79:196768, sync = 1
+raw_cudnn_convolution_backward_weight_out aten, start = 79:196790
+raw_cudnn_convolution_backward_weight_out aten, end = 79:198025, sync = 1
+raw_cudnn_convolution_backward_input_out aten, start = 79:198175
+raw_cudnn_convolution_backward_input_out aten, end = 79:202911, sync = 1
+raw_cudnn_convolution_backward_weight_out aten, start = 79:202930
+raw_cudnn_convolution_backward_weight_out aten, end = 79:207159, sync = 1
+raw_cudnn_convolution_backward_input_out aten, start = 79:207344
+raw_cudnn_convolution_backward_input_out aten, end = 79:217625, sync = 1
+raw_cudnn_convolution_backward_weight_out aten, start = 79:217646
+raw_cudnn_convolution_backward_weight_out aten, end = 79:222929, sync = 1
+raw_cudnn_convolution_backward_input_out aten, start = 79:223143
+raw_cudnn_convolution_backward_input_out aten, end = 79:229815, sync = 1
+raw_cudnn_convolution_backward_weight_out aten, start = 79:229837
+raw_cudnn_convolution_backward_weight_out aten, end = 79:235413, sync = 1
+raw_cudnn_convolution_backward_input_out aten, start = 79:235617
+raw_cudnn_convolution_backward_input_out aten, end = 79:242238, sync = 1
+raw_cudnn_convolution_backward_weight_out aten, start = 79:242260
+raw_cudnn_convolution_backward_weight_out aten, end = 79:247111, sync = 1
+raw_cudnn_convolution_backward_input_out aten, start = 79:247323
+raw_cudnn_convolution_backward_input_out aten, end = 79:251419, sync = 1
+raw_cudnn_convolution_backward_weight_out aten, start = 79:251440
+raw_cudnn_convolution_backward_weight_out aten, end = 79:252806, sync = 1
+raw_cudnn_convolution_backward_input_out aten, start = 79:252964
+raw_cudnn_convolution_backward_input_out aten, end = 79:258638, sync = 1
+raw_cudnn_convolution_backward_weight_out aten, start = 79:258663
+raw_cudnn_convolution_backward_weight_out aten, end = 79:263515, sync = 1
+raw_cudnn_convolution_backward_input_out aten, start = 79:263697
+raw_cudnn_convolution_backward_input_out aten, end = 79:274436, sync = 1
+raw_cudnn_convolution_backward_weight_out aten, start = 79:274463
+raw_cudnn_convolution_backward_weight_out aten, end = 79:280153, sync = 1
+raw_cudnn_convolution_backward_input_out aten, start = 79:280374
+raw_cudnn_convolution_backward_input_out aten, end = 79:290211, sync = 1
+raw_cudnn_convolution_backward_weight_out aten, start = 79:290233
+raw_cudnn_convolution_backward_weight_out aten, end = 79:296376, sync = 1
+raw_cudnn_convolution_backward_input_out aten, start = 79:296553
+raw_cudnn_convolution_backward_input_out aten, end = 79:305321, sync = 1
+raw_cudnn_convolution_backward_weight_out aten, start = 79:305343
+raw_cudnn_convolution_backward_weight_out aten, end = 79:311488, sync = 1
+raw_cudnn_convolution_backward_input_out aten, start = 79:311692
+raw_cudnn_convolution_backward_input_out aten, end = 79:318432, sync = 1
+raw_cudnn_convolution_backward_weight_out aten, start = 79:318453
+raw_cudnn_convolution_backward_weight_out aten, end = 79:320613, sync = 1
+raw_cudnn_convolution_backward_input_out aten, start = 79:320772
+raw_cudnn_convolution_backward_input_out aten, end = 79:328473, sync = 1
+raw_cudnn_convolution_backward_weight_out aten, start = 79:328494
+raw_cudnn_convolution_backward_weight_out aten, end = 79:334632, sync = 1
+raw_cudnn_convolution_backward_input_out aten, start = 79:334831
+raw_cudnn_convolution_backward_input_out aten, end = 79:350459, sync = 1
+raw_cudnn_convolution_backward_weight_out aten, start = 79:350485
+raw_cudnn_convolution_backward_weight_out aten, end = 79:356280, sync = 1
+raw_cudnn_convolution_backward_input_out aten, start = 79:356494
+raw_cudnn_convolution_backward_input_out aten, end = 79:372078, sync = 1
+raw_cudnn_convolution_backward_weight_out aten, start = 79:372101
+raw_cudnn_convolution_backward_weight_out aten, end = 79:385704, sync = 1
+raw_cudnn_convolution_backward_input_out aten, start = 79:385870
+raw_cudnn_convolution_backward_input_out aten, end = 79:399260, sync = 1
+raw_cudnn_convolution_backward_weight_out aten, start = 79:399287
+raw_cudnn_convolution_backward_weight_out aten, end = 79:412730, sync = 1
+raw_cudnn_convolution_backward_input_out aten, start = 79:412908
+raw_cudnn_convolution_backward_input_out aten, end = 79:428535, sync = 1
+raw_cudnn_convolution_backward_weight_out aten, start = 79:428562
+raw_cudnn_convolution_backward_weight_out aten, end = 79:442735, sync = 1
+raw_cudnn_convolution_backward_input_out aten, start = 79:442911
+raw_cudnn_convolution_backward_input_out aten, end = 79:456466, sync = 1
+raw_cudnn_convolution_backward_weight_out aten, start = 79:456494
+raw_cudnn_convolution_backward_weight_out aten, end = 79:470072, sync = 1
+raw_cudnn_convolution_backward_weight_out aten, start = 79:472762
+raw_cudnn_convolution_backward_weight_out aten, end = 79:550347, sync = 1
+[python] backward===: 1565226879550
+========================
+[python] ===forward: 1565226879555
+raw_cudnn_convolution_forward_out aten, start = 79:556072
+raw_cudnn_convolution_forward_out aten, end = 79:582326, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 79:582730
+raw_cudnn_convolution_forward_out aten, end = 79:613101, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 79:613345
+raw_cudnn_convolution_forward_out aten, end = 79:624396, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 79:624677
+raw_cudnn_convolution_forward_out aten, end = 79:637949, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 79:638206
+raw_cudnn_convolution_forward_out aten, end = 79:649250, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 79:649525
+raw_cudnn_convolution_forward_out aten, end = 79:661039, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 79:661294
+raw_cudnn_convolution_forward_out aten, end = 79:668923, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 79:669152
+raw_cudnn_convolution_forward_out aten, end = 79:671323, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 79:671612
+raw_cudnn_convolution_forward_out aten, end = 79:680345, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 79:680597
+raw_cudnn_convolution_forward_out aten, end = 79:688241, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 79:688527
+raw_cudnn_convolution_forward_out aten, end = 79:696894, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 79:697204
+raw_cudnn_convolution_forward_out aten, end = 79:702885, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 79:703129
+raw_cudnn_convolution_forward_out aten, end = 79:704567, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 79:704818
+raw_cudnn_convolution_forward_out aten, end = 79:711073, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 79:711329
+raw_cudnn_convolution_forward_out aten, end = 79:717014, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 79:717298
+raw_cudnn_convolution_forward_out aten, end = 79:724342, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 79:724603
+raw_cudnn_convolution_forward_out aten, end = 79:729437, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 79:729682
+raw_cudnn_convolution_forward_out aten, end = 79:730692, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 79:731022
+raw_cudnn_convolution_forward_out aten, end = 79:736075, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 79:736347
+raw_cudnn_convolution_forward_out aten, end = 79:741186, sync = 1
+[python] forward===: 1565226879742
+[python] ===backward: 1565226879744
+NUM TENSORS: 1
+raw_cudnn_convolution_backward_input_out aten, start = 79:744679
+raw_cudnn_convolution_backward_input_out aten, end = 79:750462, sync = 1
+raw_cudnn_convolution_backward_weight_out aten, start = 79:750495
+raw_cudnn_convolution_backward_weight_out aten, end = 79:754826, sync = 1
+raw_cudnn_convolution_backward_input_out aten, start = 79:755041
+raw_cudnn_convolution_backward_input_out aten, end = 79:760190, sync = 1
+raw_cudnn_convolution_backward_weight_out aten, start = 79:760219
+raw_cudnn_convolution_backward_weight_out aten, end = 79:764527, sync = 1
+raw_cudnn_convolution_backward_input_out aten, start = 79:764710
+raw_cudnn_convolution_backward_input_out aten, end = 79:767394, sync = 1
+raw_cudnn_convolution_backward_weight_out aten, start = 79:767421
+raw_cudnn_convolution_backward_weight_out aten, end = 79:768682, sync = 1
+raw_cudnn_convolution_backward_input_out aten, start = 79:768823
+raw_cudnn_convolution_backward_input_out aten, end = 79:773650, sync = 1
+raw_cudnn_convolution_backward_weight_out aten, start = 79:773678
+raw_cudnn_convolution_backward_weight_out aten, end = 79:777951, sync = 1
+raw_cudnn_convolution_backward_input_out aten, start = 79:778119
+raw_cudnn_convolution_backward_input_out aten, end = 79:788626, sync = 1
+raw_cudnn_convolution_backward_weight_out aten, start = 79:788652
+raw_cudnn_convolution_backward_weight_out aten, end = 79:794050, sync = 1
+raw_cudnn_convolution_backward_input_out aten, start = 79:794247
+raw_cudnn_convolution_backward_input_out aten, end = 79:801011, sync = 1
+raw_cudnn_convolution_backward_weight_out aten, start = 79:801039
+raw_cudnn_convolution_backward_weight_out aten, end = 79:805882, sync = 1
+raw_cudnn_convolution_backward_input_out aten, start = 79:806088
+raw_cudnn_convolution_backward_input_out aten, end = 79:812246, sync = 1
+raw_cudnn_convolution_backward_weight_out aten, start = 79:812274
+raw_cudnn_convolution_backward_weight_out aten, end = 79:817132, sync = 1
+raw_cudnn_convolution_backward_input_out aten, start = 79:817329
+raw_cudnn_convolution_backward_input_out aten, end = 79:821561, sync = 1
+raw_cudnn_convolution_backward_weight_out aten, start = 79:821587
+raw_cudnn_convolution_backward_weight_out aten, end = 79:822905, sync = 1
+raw_cudnn_convolution_backward_input_out aten, start = 79:823087
+raw_cudnn_convolution_backward_input_out aten, end = 79:828745, sync = 1
+raw_cudnn_convolution_backward_weight_out aten, start = 79:828772
+raw_cudnn_convolution_backward_weight_out aten, end = 79:833620, sync = 1
+raw_cudnn_convolution_backward_input_out aten, start = 79:833782
+raw_cudnn_convolution_backward_input_out aten, end = 79:845128, sync = 1
+raw_cudnn_convolution_backward_weight_out aten, start = 79:845159
+raw_cudnn_convolution_backward_weight_out aten, end = 79:850942, sync = 1
+raw_cudnn_convolution_backward_input_out aten, start = 79:851160
+raw_cudnn_convolution_backward_input_out aten, end = 79:861061, sync = 1
+raw_cudnn_convolution_backward_weight_out aten, start = 79:861089
+raw_cudnn_convolution_backward_weight_out aten, end = 79:867297, sync = 1
+raw_cudnn_convolution_backward_input_out aten, start = 79:867464
+raw_cudnn_convolution_backward_input_out aten, end = 79:876262, sync = 1
+raw_cudnn_convolution_backward_weight_out aten, start = 79:876290
+raw_cudnn_convolution_backward_weight_out aten, end = 79:882455, sync = 1
+raw_cudnn_convolution_backward_input_out aten, start = 79:882640
+raw_cudnn_convolution_backward_input_out aten, end = 79:889504, sync = 1
+raw_cudnn_convolution_backward_weight_out aten, start = 79:889531
+raw_cudnn_convolution_backward_weight_out aten, end = 79:891716, sync = 1
+raw_cudnn_convolution_backward_input_out aten, start = 79:891867
+raw_cudnn_convolution_backward_input_out aten, end = 79:899634, sync = 1
+raw_cudnn_convolution_backward_weight_out aten, start = 79:899662
+raw_cudnn_convolution_backward_weight_out aten, end = 79:905854, sync = 1
+raw_cudnn_convolution_backward_input_out aten, start = 79:906017
+raw_cudnn_convolution_backward_input_out aten, end = 79:921778, sync = 1
+raw_cudnn_convolution_backward_weight_out aten, start = 79:921806
+raw_cudnn_convolution_backward_weight_out aten, end = 79:927612, sync = 1
+raw_cudnn_convolution_backward_input_out aten, start = 79:927814
+raw_cudnn_convolution_backward_input_out aten, end = 79:943465, sync = 1
+raw_cudnn_convolution_backward_weight_out aten, start = 79:943493
+raw_cudnn_convolution_backward_weight_out aten, end = 79:957166, sync = 1
+raw_cudnn_convolution_backward_input_out aten, start = 79:957335
+raw_cudnn_convolution_backward_input_out aten, end = 79:970808, sync = 1
+raw_cudnn_convolution_backward_weight_out aten, start = 79:970835
+raw_cudnn_convolution_backward_weight_out aten, end = 79:984390, sync = 1
+raw_cudnn_convolution_backward_input_out aten, start = 79:984571
+raw_cudnn_convolution_backward_input_out aten, end = 80:000291, sync = 1
+raw_cudnn_convolution_backward_weight_out aten, start = 80:000318
+raw_cudnn_convolution_backward_weight_out aten, end = 80:013883, sync = 1
+raw_cudnn_convolution_backward_input_out aten, start = 80:014053
+raw_cudnn_convolution_backward_input_out aten, end = 80:027505, sync = 1
+raw_cudnn_convolution_backward_weight_out aten, start = 80:027532
+raw_cudnn_convolution_backward_weight_out aten, end = 80:041846, sync = 1
+raw_cudnn_convolution_backward_weight_out aten, start = 80:042073
+raw_cudnn_convolution_backward_weight_out aten, end = 80:122618, sync = 1
+[python] backward===: 1565226880122
+========================
+[python] ===forward: 1565226880127
+raw_cudnn_convolution_forward_out aten, start = 80:128325
+raw_cudnn_convolution_forward_out aten, end = 80:154713, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 80:155125
+raw_cudnn_convolution_forward_out aten, end = 80:185513, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 80:185791
+raw_cudnn_convolution_forward_out aten, end = 80:196980, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 80:197242
+raw_cudnn_convolution_forward_out aten, end = 80:210689, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 80:211002
+raw_cudnn_convolution_forward_out aten, end = 80:222171, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 80:222465
+raw_cudnn_convolution_forward_out aten, end = 80:234080, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 80:234328
+raw_cudnn_convolution_forward_out aten, end = 80:242016, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 80:242249
+raw_cudnn_convolution_forward_out aten, end = 80:244447, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 80:244705
+raw_cudnn_convolution_forward_out aten, end = 80:253521, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 80:253754
+raw_cudnn_convolution_forward_out aten, end = 80:261448, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 80:261755
+raw_cudnn_convolution_forward_out aten, end = 80:270713, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 80:270987
+raw_cudnn_convolution_forward_out aten, end = 80:276657, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 80:276889
+raw_cudnn_convolution_forward_out aten, end = 80:278317, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 80:278620
+raw_cudnn_convolution_forward_out aten, end = 80:284793, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 80:285066
+raw_cudnn_convolution_forward_out aten, end = 80:290705, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 80:291050
+raw_cudnn_convolution_forward_out aten, end = 80:297926, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 80:298157
+raw_cudnn_convolution_forward_out aten, end = 80:302971, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 80:303219
+raw_cudnn_convolution_forward_out aten, end = 80:304199, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 80:304450
+raw_cudnn_convolution_forward_out aten, end = 80:309489, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 80:309736
+raw_cudnn_convolution_forward_out aten, end = 80:314524, sync = 1
+[python] forward===: 1565226880316
+[python] ===backward: 1565226880317
+NUM TENSORS: 1
+raw_cudnn_convolution_backward_input_out aten, start = 80:318094
+raw_cudnn_convolution_backward_input_out aten, end = 80:323830, sync = 1
+raw_cudnn_convolution_backward_weight_out aten, start = 80:323859
+raw_cudnn_convolution_backward_weight_out aten, end = 80:328084, sync = 1
+raw_cudnn_convolution_backward_input_out aten, start = 80:328260
+raw_cudnn_convolution_backward_input_out aten, end = 80:333394, sync = 1
+raw_cudnn_convolution_backward_weight_out aten, start = 80:333421
+raw_cudnn_convolution_backward_weight_out aten, end = 80:337645, sync = 1
+raw_cudnn_convolution_backward_input_out aten, start = 80:337831
+raw_cudnn_convolution_backward_input_out aten, end = 80:340278, sync = 1
+raw_cudnn_convolution_backward_weight_out aten, start = 80:340303
+raw_cudnn_convolution_backward_weight_out aten, end = 80:341331, sync = 1
+raw_cudnn_convolution_backward_input_out aten, start = 80:341473
+raw_cudnn_convolution_backward_input_out aten, end = 80:346294, sync = 1
+raw_cudnn_convolution_backward_weight_out aten, start = 80:346310
+raw_cudnn_convolution_backward_weight_out aten, end = 80:350597, sync = 1
+raw_cudnn_convolution_backward_input_out aten, start = 80:350785
+raw_cudnn_convolution_backward_input_out aten, end = 80:361277, sync = 1
+raw_cudnn_convolution_backward_weight_out aten, start = 80:361306
+raw_cudnn_convolution_backward_weight_out aten, end = 80:366703, sync = 1
+raw_cudnn_convolution_backward_input_out aten, start = 80:366899
+raw_cudnn_convolution_backward_input_out aten, end = 80:373641, sync = 1
+raw_cudnn_convolution_backward_weight_out aten, start = 80:373668
+raw_cudnn_convolution_backward_weight_out aten, end = 80:378536, sync = 1
+raw_cudnn_convolution_backward_input_out aten, start = 80:378739
+raw_cudnn_convolution_backward_input_out aten, end = 80:384920, sync = 1
+raw_cudnn_convolution_backward_weight_out aten, start = 80:384946
+raw_cudnn_convolution_backward_weight_out aten, end = 80:389795, sync = 1
+raw_cudnn_convolution_backward_input_out aten, start = 80:389974
+raw_cudnn_convolution_backward_input_out aten, end = 80:394136, sync = 1
+raw_cudnn_convolution_backward_weight_out aten, start = 80:394162
+raw_cudnn_convolution_backward_weight_out aten, end = 80:395506, sync = 1
+raw_cudnn_convolution_backward_input_out aten, start = 80:395651
+raw_cudnn_convolution_backward_input_out aten, end = 80:401307, sync = 1
+raw_cudnn_convolution_backward_weight_out aten, start = 80:401334
+raw_cudnn_convolution_backward_weight_out aten, end = 80:406180, sync = 1
+raw_cudnn_convolution_backward_input_out aten, start = 80:406350
+raw_cudnn_convolution_backward_input_out aten, end = 80:417095, sync = 1
+raw_cudnn_convolution_backward_weight_out aten, start = 80:417122
+raw_cudnn_convolution_backward_weight_out aten, end = 80:422816, sync = 1
+raw_cudnn_convolution_backward_input_out aten, start = 80:423026
+raw_cudnn_convolution_backward_input_out aten, end = 80:432872, sync = 1
+raw_cudnn_convolution_backward_weight_out aten, start = 80:432899
+raw_cudnn_convolution_backward_weight_out aten, end = 80:439641, sync = 1
+raw_cudnn_convolution_backward_input_out aten, start = 80:439846
+raw_cudnn_convolution_backward_input_out aten, end = 80:448678, sync = 1
+raw_cudnn_convolution_backward_weight_out aten, start = 80:448705
+raw_cudnn_convolution_backward_weight_out aten, end = 80:454879, sync = 1
+raw_cudnn_convolution_backward_input_out aten, start = 80:455077
+raw_cudnn_convolution_backward_input_out aten, end = 80:461835, sync = 1
+raw_cudnn_convolution_backward_weight_out aten, start = 80:461862
+raw_cudnn_convolution_backward_weight_out aten, end = 80:463971, sync = 1
+raw_cudnn_convolution_backward_input_out aten, start = 80:464125
+raw_cudnn_convolution_backward_input_out aten, end = 80:471874, sync = 1
+raw_cudnn_convolution_backward_weight_out aten, start = 80:471902
+raw_cudnn_convolution_backward_weight_out aten, end = 80:478071, sync = 1
+raw_cudnn_convolution_backward_input_out aten, start = 80:478231
+raw_cudnn_convolution_backward_input_out aten, end = 80:493950, sync = 1
+raw_cudnn_convolution_backward_weight_out aten, start = 80:493979
+raw_cudnn_convolution_backward_weight_out aten, end = 80:499821, sync = 1
+raw_cudnn_convolution_backward_input_out aten, start = 80:499995
+raw_cudnn_convolution_backward_input_out aten, end = 80:515700, sync = 1
+raw_cudnn_convolution_backward_weight_out aten, start = 80:515727
+raw_cudnn_convolution_backward_weight_out aten, end = 80:529310, sync = 1
+raw_cudnn_convolution_backward_input_out aten, start = 80:529469
+raw_cudnn_convolution_backward_input_out aten, end = 80:542922, sync = 1
+raw_cudnn_convolution_backward_weight_out aten, start = 80:542950
+raw_cudnn_convolution_backward_weight_out aten, end = 80:556492, sync = 1
+raw_cudnn_convolution_backward_input_out aten, start = 80:556659
+raw_cudnn_convolution_backward_input_out aten, end = 80:572366, sync = 1
+raw_cudnn_convolution_backward_weight_out aten, start = 80:572395
+raw_cudnn_convolution_backward_weight_out aten, end = 80:585971, sync = 1
+raw_cudnn_convolution_backward_input_out aten, start = 80:586126
+raw_cudnn_convolution_backward_input_out aten, end = 80:599587, sync = 1
+raw_cudnn_convolution_backward_weight_out aten, start = 80:599613
+raw_cudnn_convolution_backward_weight_out aten, end = 80:613060, sync = 1
+raw_cudnn_convolution_backward_weight_out aten, start = 80:613304
+raw_cudnn_convolution_backward_weight_out aten, end = 80:692763, sync = 1
+[python] backward===: 1565226880692
+========================
+[python] ===forward: 1565226884669
+raw_cudnn_convolution_forward_out aten, start = 84:671322
+raw_cudnn_convolution_forward_out aten, end = 84:699672, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 84:700515
+raw_cudnn_convolution_forward_out aten, end = 84:732609, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 84:732982
+raw_cudnn_convolution_forward_out aten, end = 84:745281, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 84:745655
+raw_cudnn_convolution_forward_out aten, end = 84:760206, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 84:760712
+raw_cudnn_convolution_forward_out aten, end = 84:772986, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 84:773413
+raw_cudnn_convolution_forward_out aten, end = 84:785284, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 84:785676
+raw_cudnn_convolution_forward_out aten, end = 84:793501, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 84:793901
+raw_cudnn_convolution_forward_out aten, end = 84:796071, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 84:796612
+raw_cudnn_convolution_forward_out aten, end = 84:805438, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 84:805798
+raw_cudnn_convolution_forward_out aten, end = 84:813622, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 84:814004
+raw_cudnn_convolution_forward_out aten, end = 84:822716, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 84:823040
+raw_cudnn_convolution_forward_out aten, end = 84:829017, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 84:829300
+raw_cudnn_convolution_forward_out aten, end = 84:830768, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 84:831128
+raw_cudnn_convolution_forward_out aten, end = 84:837606, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 84:838063
+raw_cudnn_convolution_forward_out aten, end = 84:843988, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 84:844593
+raw_cudnn_convolution_forward_out aten, end = 84:851862, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 84:852217
+raw_cudnn_convolution_forward_out aten, end = 84:857299, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 84:857542
+raw_cudnn_convolution_forward_out aten, end = 84:858562, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 84:858887
+raw_cudnn_convolution_forward_out aten, end = 84:864262, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 84:864530
+raw_cudnn_convolution_forward_out aten, end = 84:869652, sync = 1
+[python] forward===: 1565226884871
+[python] ===backward: 1565226884872
+NUM TENSORS: 1
+raw_cudnn_convolution_backward_input_out aten, start = 84:873625
+raw_cudnn_convolution_backward_input_out aten, end = 84:879565, sync = 1
+raw_cudnn_convolution_backward_weight_out aten, start = 84:879600
+raw_cudnn_convolution_backward_weight_out aten, end = 84:884176, sync = 1
+raw_cudnn_convolution_backward_input_out aten, start = 84:884381
+raw_cudnn_convolution_backward_input_out aten, end = 84:889844, sync = 1
+raw_cudnn_convolution_backward_weight_out aten, start = 84:889869
+raw_cudnn_convolution_backward_weight_out aten, end = 84:894440, sync = 1
+raw_cudnn_convolution_backward_input_out aten, start = 84:894685
+raw_cudnn_convolution_backward_input_out aten, end = 84:897198, sync = 1
+raw_cudnn_convolution_backward_weight_out aten, start = 84:897222
+raw_cudnn_convolution_backward_weight_out aten, end = 84:898554, sync = 1
+raw_cudnn_convolution_backward_input_out aten, start = 84:898743
+raw_cudnn_convolution_backward_input_out aten, end = 84:903881, sync = 1
+raw_cudnn_convolution_backward_weight_out aten, start = 84:903905
+raw_cudnn_convolution_backward_weight_out aten, end = 84:908539, sync = 1
+raw_cudnn_convolution_backward_input_out aten, start = 84:908733
+raw_cudnn_convolution_backward_input_out aten, end = 84:920322, sync = 1
+raw_cudnn_convolution_backward_weight_out aten, start = 84:920344
+raw_cudnn_convolution_backward_weight_out aten, end = 84:926230, sync = 1
+raw_cudnn_convolution_backward_input_out aten, start = 84:926453
+raw_cudnn_convolution_backward_input_out aten, end = 84:933539, sync = 1
+raw_cudnn_convolution_backward_weight_out aten, start = 84:933561
+raw_cudnn_convolution_backward_weight_out aten, end = 84:938694, sync = 1
+raw_cudnn_convolution_backward_input_out aten, start = 84:938869
+raw_cudnn_convolution_backward_input_out aten, end = 84:945797, sync = 1
+raw_cudnn_convolution_backward_weight_out aten, start = 84:945818
+raw_cudnn_convolution_backward_weight_out aten, end = 84:950684, sync = 1
+raw_cudnn_convolution_backward_input_out aten, start = 84:950887
+raw_cudnn_convolution_backward_input_out aten, end = 84:954984, sync = 1
+raw_cudnn_convolution_backward_weight_out aten, start = 84:955004
+raw_cudnn_convolution_backward_weight_out aten, end = 84:956367, sync = 1
+raw_cudnn_convolution_backward_input_out aten, start = 84:956531
+raw_cudnn_convolution_backward_input_out aten, end = 84:962183, sync = 1
+raw_cudnn_convolution_backward_weight_out aten, start = 84:962204
+raw_cudnn_convolution_backward_weight_out aten, end = 84:967073, sync = 1
+raw_cudnn_convolution_backward_input_out aten, start = 84:967249
+raw_cudnn_convolution_backward_input_out aten, end = 84:977980, sync = 1
+raw_cudnn_convolution_backward_weight_out aten, start = 84:978003
+raw_cudnn_convolution_backward_weight_out aten, end = 84:983705, sync = 1
+raw_cudnn_convolution_backward_input_out aten, start = 84:983923
+raw_cudnn_convolution_backward_input_out aten, end = 84:993795, sync = 1
+raw_cudnn_convolution_backward_weight_out aten, start = 84:993816
+raw_cudnn_convolution_backward_weight_out aten, end = 84:999964, sync = 1
+raw_cudnn_convolution_backward_input_out aten, start = 85:000152
+raw_cudnn_convolution_backward_input_out aten, end = 85:008908, sync = 1
+raw_cudnn_convolution_backward_weight_out aten, start = 85:008929
+raw_cudnn_convolution_backward_weight_out aten, end = 85:015073, sync = 1
+raw_cudnn_convolution_backward_input_out aten, start = 85:015268
+raw_cudnn_convolution_backward_input_out aten, end = 85:022096, sync = 1
+raw_cudnn_convolution_backward_weight_out aten, start = 85:022125
+raw_cudnn_convolution_backward_weight_out aten, end = 85:024301, sync = 1
+raw_cudnn_convolution_backward_input_out aten, start = 85:024473
+raw_cudnn_convolution_backward_input_out aten, end = 85:032154, sync = 1
+raw_cudnn_convolution_backward_weight_out aten, start = 85:032187
+raw_cudnn_convolution_backward_weight_out aten, end = 85:038370, sync = 1
+raw_cudnn_convolution_backward_input_out aten, start = 85:038580
+raw_cudnn_convolution_backward_input_out aten, end = 85:054218, sync = 1
+raw_cudnn_convolution_backward_weight_out aten, start = 85:054251
+raw_cudnn_convolution_backward_weight_out aten, end = 85:060053, sync = 1
+raw_cudnn_convolution_backward_input_out aten, start = 85:060273
+raw_cudnn_convolution_backward_input_out aten, end = 85:075873, sync = 1
+raw_cudnn_convolution_backward_weight_out aten, start = 85:075901
+raw_cudnn_convolution_backward_weight_out aten, end = 85:089435, sync = 1
+raw_cudnn_convolution_backward_input_out aten, start = 85:089618
+raw_cudnn_convolution_backward_input_out aten, end = 85:102982, sync = 1
+raw_cudnn_convolution_backward_weight_out aten, start = 85:103015
+raw_cudnn_convolution_backward_weight_out aten, end = 85:117042, sync = 1
+raw_cudnn_convolution_backward_input_out aten, start = 85:117321
+raw_cudnn_convolution_backward_input_out aten, end = 85:132750, sync = 1
+raw_cudnn_convolution_backward_weight_out aten, start = 85:132779
+raw_cudnn_convolution_backward_weight_out aten, end = 85:146706, sync = 1
+raw_cudnn_convolution_backward_input_out aten, start = 85:146952
+raw_cudnn_convolution_backward_input_out aten, end = 85:160218, sync = 1
+raw_cudnn_convolution_backward_weight_out aten, start = 85:160244
+raw_cudnn_convolution_backward_weight_out aten, end = 85:173616, sync = 1
+raw_cudnn_convolution_backward_weight_out aten, start = 85:173942
+raw_cudnn_convolution_backward_weight_out aten, end = 85:252304, sync = 1
+[python] backward===: 1565226885252
+========================
+[python] ===forward: 1565226885473
+raw_cudnn_convolution_forward_out aten, start = 85:475158
+raw_cudnn_convolution_forward_out aten, end = 85:500901, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 85:501334
+raw_cudnn_convolution_forward_out aten, end = 85:531193, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 85:531465
+raw_cudnn_convolution_forward_out aten, end = 85:542350, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 85:542634
+raw_cudnn_convolution_forward_out aten, end = 85:555755, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 85:556003
+raw_cudnn_convolution_forward_out aten, end = 85:566896, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 85:567213
+raw_cudnn_convolution_forward_out aten, end = 85:578600, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 85:578900
+raw_cudnn_convolution_forward_out aten, end = 85:586432, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 85:586698
+raw_cudnn_convolution_forward_out aten, end = 85:588818, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 85:589102
+raw_cudnn_convolution_forward_out aten, end = 85:597735, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 85:597977
+raw_cudnn_convolution_forward_out aten, end = 85:605524, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 85:605796
+raw_cudnn_convolution_forward_out aten, end = 85:614645, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 85:614908
+raw_cudnn_convolution_forward_out aten, end = 85:620496, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 85:620709
+raw_cudnn_convolution_forward_out aten, end = 85:622125, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 85:622392
+raw_cudnn_convolution_forward_out aten, end = 85:628511, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 85:628751
+raw_cudnn_convolution_forward_out aten, end = 85:634330, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 85:634616
+raw_cudnn_convolution_forward_out aten, end = 85:641487, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 85:641722
+raw_cudnn_convolution_forward_out aten, end = 85:646461, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 85:646701
+raw_cudnn_convolution_forward_out aten, end = 85:647661, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 85:647937
+raw_cudnn_convolution_forward_out aten, end = 85:652901, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 85:653127
+raw_cudnn_convolution_forward_out aten, end = 85:657845, sync = 1
+[python] forward===: 1565226885659
+[python] ===backward: 1565226885660
+NUM TENSORS: 1
+raw_cudnn_convolution_backward_input_out aten, start = 85:661572
+raw_cudnn_convolution_backward_input_out aten, end = 85:667088, sync = 1
+raw_cudnn_convolution_backward_weight_out aten, start = 85:667137
+raw_cudnn_convolution_backward_weight_out aten, end = 85:671364, sync = 1
+raw_cudnn_convolution_backward_input_out aten, start = 85:671656
+raw_cudnn_convolution_backward_input_out aten, end = 85:676631, sync = 1
+raw_cudnn_convolution_backward_weight_out aten, start = 85:676653
+raw_cudnn_convolution_backward_weight_out aten, end = 85:680824, sync = 1
+raw_cudnn_convolution_backward_input_out aten, start = 85:681031
+raw_cudnn_convolution_backward_input_out aten, end = 85:683458, sync = 1
+raw_cudnn_convolution_backward_weight_out aten, start = 85:683478
+raw_cudnn_convolution_backward_weight_out aten, end = 85:684534, sync = 1
+raw_cudnn_convolution_backward_input_out aten, start = 85:684697
+raw_cudnn_convolution_backward_input_out aten, end = 85:689433, sync = 1
+raw_cudnn_convolution_backward_weight_out aten, start = 85:689454
+raw_cudnn_convolution_backward_weight_out aten, end = 85:693611, sync = 1
+raw_cudnn_convolution_backward_input_out aten, start = 85:693790
+raw_cudnn_convolution_backward_input_out aten, end = 85:704188, sync = 1
+raw_cudnn_convolution_backward_weight_out aten, start = 85:704209
+raw_cudnn_convolution_backward_weight_out aten, end = 85:709517, sync = 1
+raw_cudnn_convolution_backward_input_out aten, start = 85:709723
+raw_cudnn_convolution_backward_input_out aten, end = 85:716416, sync = 1
+raw_cudnn_convolution_backward_weight_out aten, start = 85:716438
+raw_cudnn_convolution_backward_weight_out aten, end = 85:721230, sync = 1
+raw_cudnn_convolution_backward_input_out aten, start = 85:721406
+raw_cudnn_convolution_backward_input_out aten, end = 85:727520, sync = 1
+raw_cudnn_convolution_backward_weight_out aten, start = 85:727543
+raw_cudnn_convolution_backward_weight_out aten, end = 85:732335, sync = 1
+raw_cudnn_convolution_backward_input_out aten, start = 85:732532
+raw_cudnn_convolution_backward_input_out aten, end = 85:736647, sync = 1
+raw_cudnn_convolution_backward_weight_out aten, start = 85:736667
+raw_cudnn_convolution_backward_weight_out aten, end = 85:738590, sync = 1
+raw_cudnn_convolution_backward_input_out aten, start = 85:738778
+raw_cudnn_convolution_backward_input_out aten, end = 85:744483, sync = 1
+raw_cudnn_convolution_backward_weight_out aten, start = 85:744503
+raw_cudnn_convolution_backward_weight_out aten, end = 85:749377, sync = 1
+raw_cudnn_convolution_backward_input_out aten, start = 85:749552
+raw_cudnn_convolution_backward_input_out aten, end = 85:760380, sync = 1
+raw_cudnn_convolution_backward_weight_out aten, start = 85:760403
+raw_cudnn_convolution_backward_weight_out aten, end = 85:766199, sync = 1
+raw_cudnn_convolution_backward_input_out aten, start = 85:766408
+raw_cudnn_convolution_backward_input_out aten, end = 85:776277, sync = 1
+raw_cudnn_convolution_backward_weight_out aten, start = 85:776299
+raw_cudnn_convolution_backward_weight_out aten, end = 85:782490, sync = 1
+raw_cudnn_convolution_backward_input_out aten, start = 85:782700
+raw_cudnn_convolution_backward_input_out aten, end = 85:791477, sync = 1
+raw_cudnn_convolution_backward_weight_out aten, start = 85:791498
+raw_cudnn_convolution_backward_weight_out aten, end = 85:797670, sync = 1
+raw_cudnn_convolution_backward_input_out aten, start = 85:797867
+raw_cudnn_convolution_backward_input_out aten, end = 85:804682, sync = 1
+raw_cudnn_convolution_backward_weight_out aten, start = 85:804703
+raw_cudnn_convolution_backward_weight_out aten, end = 85:806858, sync = 1
+raw_cudnn_convolution_backward_input_out aten, start = 85:807013
+raw_cudnn_convolution_backward_input_out aten, end = 85:814754, sync = 1
+raw_cudnn_convolution_backward_weight_out aten, start = 85:814775
+raw_cudnn_convolution_backward_weight_out aten, end = 85:820997, sync = 1
+raw_cudnn_convolution_backward_input_out aten, start = 85:821177
+raw_cudnn_convolution_backward_input_out aten, end = 85:836878, sync = 1
+raw_cudnn_convolution_backward_weight_out aten, start = 85:836894
+raw_cudnn_convolution_backward_weight_out aten, end = 85:842732, sync = 1
+raw_cudnn_convolution_backward_input_out aten, start = 85:842903
+raw_cudnn_convolution_backward_input_out aten, end = 85:858636, sync = 1
+raw_cudnn_convolution_backward_weight_out aten, start = 85:858680
+raw_cudnn_convolution_backward_weight_out aten, end = 85:872259, sync = 1
+raw_cudnn_convolution_backward_input_out aten, start = 85:872421
+raw_cudnn_convolution_backward_input_out aten, end = 85:885925, sync = 1
+raw_cudnn_convolution_backward_weight_out aten, start = 85:885942
+raw_cudnn_convolution_backward_weight_out aten, end = 85:899505, sync = 1
+raw_cudnn_convolution_backward_input_out aten, start = 85:899678
+raw_cudnn_convolution_backward_input_out aten, end = 85:915393, sync = 1
+raw_cudnn_convolution_backward_weight_out aten, start = 85:915420
+raw_cudnn_convolution_backward_weight_out aten, end = 85:928910, sync = 1
+raw_cudnn_convolution_backward_input_out aten, start = 85:929113
+raw_cudnn_convolution_backward_input_out aten, end = 85:943262, sync = 1
+raw_cudnn_convolution_backward_weight_out aten, start = 85:943278
+raw_cudnn_convolution_backward_weight_out aten, end = 85:957183, sync = 1
+raw_cudnn_convolution_backward_weight_out aten, start = 85:957417
+raw_cudnn_convolution_backward_weight_out aten, end = 86:037790, sync = 1
+[python] backward===: 1565226886037
+========================
+[python] ===forward: 1565226886041
+raw_cudnn_convolution_forward_out aten, start = 86:044182
+raw_cudnn_convolution_forward_out aten, end = 86:069601, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 86:069974
+raw_cudnn_convolution_forward_out aten, end = 86:100387, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 86:100643
+raw_cudnn_convolution_forward_out aten, end = 86:112470, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 86:112745
+raw_cudnn_convolution_forward_out aten, end = 86:126029, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 86:126301
+raw_cudnn_convolution_forward_out aten, end = 86:137336, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 86:137614
+raw_cudnn_convolution_forward_out aten, end = 86:149142, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 86:149392
+raw_cudnn_convolution_forward_out aten, end = 86:157028, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 86:157251
+raw_cudnn_convolution_forward_out aten, end = 86:159438, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 86:159711
+raw_cudnn_convolution_forward_out aten, end = 86:168447, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 86:168698
+raw_cudnn_convolution_forward_out aten, end = 86:176319, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 86:176590
+raw_cudnn_convolution_forward_out aten, end = 86:184946, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 86:185181
+raw_cudnn_convolution_forward_out aten, end = 86:190899, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 86:191143
+raw_cudnn_convolution_forward_out aten, end = 86:192583, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 86:192836
+raw_cudnn_convolution_forward_out aten, end = 86:199103, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 86:199334
+raw_cudnn_convolution_forward_out aten, end = 86:205039, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 86:205346
+raw_cudnn_convolution_forward_out aten, end = 86:212380, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 86:212649
+raw_cudnn_convolution_forward_out aten, end = 86:217513, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 86:217732
+raw_cudnn_convolution_forward_out aten, end = 86:218748, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 86:219064
+raw_cudnn_convolution_forward_out aten, end = 86:224121, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 86:224358
+raw_cudnn_convolution_forward_out aten, end = 86:229210, sync = 1
+[python] forward===: 1565226886231
+[python] ===backward: 1565226886232
+NUM TENSORS: 1
+raw_cudnn_convolution_backward_input_out aten, start = 86:232817
+raw_cudnn_convolution_backward_input_out aten, end = 86:238533, sync = 1
+raw_cudnn_convolution_backward_weight_out aten, start = 86:238564
+raw_cudnn_convolution_backward_weight_out aten, end = 86:242832, sync = 1
+raw_cudnn_convolution_backward_input_out aten, start = 86:243020
+raw_cudnn_convolution_backward_input_out aten, end = 86:248209, sync = 1
+raw_cudnn_convolution_backward_weight_out aten, start = 86:248235
+raw_cudnn_convolution_backward_weight_out aten, end = 86:252560, sync = 1
+raw_cudnn_convolution_backward_input_out aten, start = 86:252733
+raw_cudnn_convolution_backward_input_out aten, end = 86:255191, sync = 1
+raw_cudnn_convolution_backward_weight_out aten, start = 86:255206
+raw_cudnn_convolution_backward_weight_out aten, end = 86:256456, sync = 1
+raw_cudnn_convolution_backward_input_out aten, start = 86:256589
+raw_cudnn_convolution_backward_input_out aten, end = 86:261480, sync = 1
+raw_cudnn_convolution_backward_weight_out aten, start = 86:261495
+raw_cudnn_convolution_backward_weight_out aten, end = 86:265828, sync = 1
+raw_cudnn_convolution_backward_input_out aten, start = 86:265990
+raw_cudnn_convolution_backward_input_out aten, end = 86:276917, sync = 1
+raw_cudnn_convolution_backward_weight_out aten, start = 86:276945
+raw_cudnn_convolution_backward_weight_out aten, end = 86:283018, sync = 1
+raw_cudnn_convolution_backward_input_out aten, start = 86:283205
+raw_cudnn_convolution_backward_input_out aten, end = 86:289949, sync = 1
+raw_cudnn_convolution_backward_weight_out aten, start = 86:289977
+raw_cudnn_convolution_backward_weight_out aten, end = 86:294833, sync = 1
+raw_cudnn_convolution_backward_input_out aten, start = 86:295019
+raw_cudnn_convolution_backward_input_out aten, end = 86:301194, sync = 1
+raw_cudnn_convolution_backward_weight_out aten, start = 86:301210
+raw_cudnn_convolution_backward_weight_out aten, end = 86:306088, sync = 1
+raw_cudnn_convolution_backward_input_out aten, start = 86:306258
+raw_cudnn_convolution_backward_input_out aten, end = 86:310465, sync = 1
+raw_cudnn_convolution_backward_weight_out aten, start = 86:310493
+raw_cudnn_convolution_backward_weight_out aten, end = 86:311838, sync = 1
+raw_cudnn_convolution_backward_input_out aten, start = 86:311979
+raw_cudnn_convolution_backward_input_out aten, end = 86:317647, sync = 1
+raw_cudnn_convolution_backward_weight_out aten, start = 86:317676
+raw_cudnn_convolution_backward_weight_out aten, end = 86:322517, sync = 1
+raw_cudnn_convolution_backward_input_out aten, start = 86:322701
+raw_cudnn_convolution_backward_input_out aten, end = 86:333432, sync = 1
+raw_cudnn_convolution_backward_weight_out aten, start = 86:333461
+raw_cudnn_convolution_backward_weight_out aten, end = 86:339812, sync = 1
+raw_cudnn_convolution_backward_input_out aten, start = 86:339985
+raw_cudnn_convolution_backward_input_out aten, end = 86:349933, sync = 1
+raw_cudnn_convolution_backward_weight_out aten, start = 86:349959
+raw_cudnn_convolution_backward_weight_out aten, end = 86:356121, sync = 1
+raw_cudnn_convolution_backward_input_out aten, start = 86:356281
+raw_cudnn_convolution_backward_input_out aten, end = 86:365118, sync = 1
+raw_cudnn_convolution_backward_weight_out aten, start = 86:365134
+raw_cudnn_convolution_backward_weight_out aten, end = 86:371324, sync = 1
+raw_cudnn_convolution_backward_input_out aten, start = 86:371516
+raw_cudnn_convolution_backward_input_out aten, end = 86:378343, sync = 1
+raw_cudnn_convolution_backward_weight_out aten, start = 86:378373
+raw_cudnn_convolution_backward_weight_out aten, end = 86:380552, sync = 1
+raw_cudnn_convolution_backward_input_out aten, start = 86:380702
+raw_cudnn_convolution_backward_input_out aten, end = 86:388471, sync = 1
+raw_cudnn_convolution_backward_weight_out aten, start = 86:388499
+raw_cudnn_convolution_backward_weight_out aten, end = 86:394670, sync = 1
+raw_cudnn_convolution_backward_input_out aten, start = 86:394851
+raw_cudnn_convolution_backward_input_out aten, end = 86:410570, sync = 1
+raw_cudnn_convolution_backward_weight_out aten, start = 86:410599
+raw_cudnn_convolution_backward_weight_out aten, end = 86:416412, sync = 1
+raw_cudnn_convolution_backward_input_out aten, start = 86:416587
+raw_cudnn_convolution_backward_input_out aten, end = 86:432308, sync = 1
+raw_cudnn_convolution_backward_weight_out aten, start = 86:432336
+raw_cudnn_convolution_backward_weight_out aten, end = 86:445830, sync = 1
+raw_cudnn_convolution_backward_input_out aten, start = 86:445986
+raw_cudnn_convolution_backward_input_out aten, end = 86:459513, sync = 1
+raw_cudnn_convolution_backward_weight_out aten, start = 86:459541
+raw_cudnn_convolution_backward_weight_out aten, end = 86:473139, sync = 1
+raw_cudnn_convolution_backward_input_out aten, start = 86:473320
+raw_cudnn_convolution_backward_input_out aten, end = 86:489049, sync = 1
+raw_cudnn_convolution_backward_weight_out aten, start = 86:489067
+raw_cudnn_convolution_backward_weight_out aten, end = 86:502789, sync = 1
+raw_cudnn_convolution_backward_input_out aten, start = 86:502942
+raw_cudnn_convolution_backward_input_out aten, end = 86:516437, sync = 1
+raw_cudnn_convolution_backward_weight_out aten, start = 86:516454
+raw_cudnn_convolution_backward_weight_out aten, end = 86:530038, sync = 1
+raw_cudnn_convolution_backward_weight_out aten, start = 86:530268
+raw_cudnn_convolution_backward_weight_out aten, end = 86:611240, sync = 1
+[python] backward===: 1565226886611
+========================
+[python] ===forward: 1565226886614
+raw_cudnn_convolution_forward_out aten, start = 86:616664
+raw_cudnn_convolution_forward_out aten, end = 86:643170, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 86:643540
+raw_cudnn_convolution_forward_out aten, end = 86:673953, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 86:674221
+raw_cudnn_convolution_forward_out aten, end = 86:685416, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 86:685688
+raw_cudnn_convolution_forward_out aten, end = 86:699125, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 86:699384
+raw_cudnn_convolution_forward_out aten, end = 86:710589, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 86:710901
+raw_cudnn_convolution_forward_out aten, end = 86:722537, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 86:722828
+raw_cudnn_convolution_forward_out aten, end = 86:730530, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 86:730818
+raw_cudnn_convolution_forward_out aten, end = 86:733010, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 86:733282
+raw_cudnn_convolution_forward_out aten, end = 86:742085, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 86:742338
+raw_cudnn_convolution_forward_out aten, end = 86:750038, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 86:750321
+raw_cudnn_convolution_forward_out aten, end = 86:758836, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 86:759103
+raw_cudnn_convolution_forward_out aten, end = 86:764894, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 86:765124
+raw_cudnn_convolution_forward_out aten, end = 86:766580, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 86:766919
+raw_cudnn_convolution_forward_out aten, end = 86:773239, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 86:773489
+raw_cudnn_convolution_forward_out aten, end = 86:779929, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 86:780213
+raw_cudnn_convolution_forward_out aten, end = 86:787177, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 86:787418
+raw_cudnn_convolution_forward_out aten, end = 86:792222, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 86:792435
+raw_cudnn_convolution_forward_out aten, end = 86:793448, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 86:793745
+raw_cudnn_convolution_forward_out aten, end = 86:798787, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 86:799075
+raw_cudnn_convolution_forward_out aten, end = 86:803826, sync = 1
+[python] forward===: 1565226886805
+[python] ===backward: 1565226886806
+NUM TENSORS: 1
+raw_cudnn_convolution_backward_input_out aten, start = 86:807882
+raw_cudnn_convolution_backward_input_out aten, end = 86:813466, sync = 1
+raw_cudnn_convolution_backward_weight_out aten, start = 86:813503
+raw_cudnn_convolution_backward_weight_out aten, end = 86:817782, sync = 1
+raw_cudnn_convolution_backward_input_out aten, start = 86:818177
+raw_cudnn_convolution_backward_input_out aten, end = 86:823151, sync = 1
+raw_cudnn_convolution_backward_weight_out aten, start = 86:823181
+raw_cudnn_convolution_backward_weight_out aten, end = 86:827419, sync = 1
+raw_cudnn_convolution_backward_input_out aten, start = 86:827773
+raw_cudnn_convolution_backward_input_out aten, end = 86:830101, sync = 1
+raw_cudnn_convolution_backward_weight_out aten, start = 86:830132
+raw_cudnn_convolution_backward_weight_out aten, end = 86:831387, sync = 1
+raw_cudnn_convolution_backward_input_out aten, start = 86:831571
+raw_cudnn_convolution_backward_input_out aten, end = 86:836394, sync = 1
+raw_cudnn_convolution_backward_weight_out aten, start = 86:836415
+raw_cudnn_convolution_backward_weight_out aten, end = 86:840704, sync = 1
+raw_cudnn_convolution_backward_input_out aten, start = 86:840897
+raw_cudnn_convolution_backward_input_out aten, end = 86:851412, sync = 1
+raw_cudnn_convolution_backward_weight_out aten, start = 86:851448
+raw_cudnn_convolution_backward_weight_out aten, end = 86:856884, sync = 1
+raw_cudnn_convolution_backward_input_out aten, start = 86:857240
+raw_cudnn_convolution_backward_input_out aten, end = 86:863874, sync = 1
+raw_cudnn_convolution_backward_weight_out aten, start = 86:863908
+raw_cudnn_convolution_backward_weight_out aten, end = 86:868791, sync = 1
+raw_cudnn_convolution_backward_input_out aten, start = 86:868996
+raw_cudnn_convolution_backward_input_out aten, end = 86:875174, sync = 1
+raw_cudnn_convolution_backward_weight_out aten, start = 86:875197
+raw_cudnn_convolution_backward_weight_out aten, end = 86:880068, sync = 1
+raw_cudnn_convolution_backward_input_out aten, start = 86:880292
+raw_cudnn_convolution_backward_input_out aten, end = 86:884411, sync = 1
+raw_cudnn_convolution_backward_weight_out aten, start = 86:884433
+raw_cudnn_convolution_backward_weight_out aten, end = 86:885796, sync = 1
+raw_cudnn_convolution_backward_input_out aten, start = 86:885985
+raw_cudnn_convolution_backward_input_out aten, end = 86:891622, sync = 1
+raw_cudnn_convolution_backward_weight_out aten, start = 86:891657
+raw_cudnn_convolution_backward_weight_out aten, end = 86:896530, sync = 1
+raw_cudnn_convolution_backward_input_out aten, start = 86:896804
+raw_cudnn_convolution_backward_input_out aten, end = 86:907509, sync = 1
+raw_cudnn_convolution_backward_weight_out aten, start = 86:907542
+raw_cudnn_convolution_backward_weight_out aten, end = 86:913253, sync = 1
+raw_cudnn_convolution_backward_input_out aten, start = 86:913478
+raw_cudnn_convolution_backward_input_out aten, end = 86:923336, sync = 1
+raw_cudnn_convolution_backward_weight_out aten, start = 86:923359
+raw_cudnn_convolution_backward_weight_out aten, end = 86:929493, sync = 1
+raw_cudnn_convolution_backward_input_out aten, start = 86:929695
+raw_cudnn_convolution_backward_input_out aten, end = 86:938956, sync = 1
+raw_cudnn_convolution_backward_weight_out aten, start = 86:938980
+raw_cudnn_convolution_backward_weight_out aten, end = 86:945155, sync = 1
+raw_cudnn_convolution_backward_input_out aten, start = 86:945358
+raw_cudnn_convolution_backward_input_out aten, end = 86:952167, sync = 1
+raw_cudnn_convolution_backward_weight_out aten, start = 86:952189
+raw_cudnn_convolution_backward_weight_out aten, end = 86:954336, sync = 1
+raw_cudnn_convolution_backward_input_out aten, start = 86:954491
+raw_cudnn_convolution_backward_input_out aten, end = 86:962235, sync = 1
+raw_cudnn_convolution_backward_weight_out aten, start = 86:962255
+raw_cudnn_convolution_backward_weight_out aten, end = 86:968466, sync = 1
+raw_cudnn_convolution_backward_input_out aten, start = 86:968645
+raw_cudnn_convolution_backward_input_out aten, end = 86:984384, sync = 1
+raw_cudnn_convolution_backward_weight_out aten, start = 86:984413
+raw_cudnn_convolution_backward_weight_out aten, end = 86:990232, sync = 1
+raw_cudnn_convolution_backward_input_out aten, start = 86:990446
+raw_cudnn_convolution_backward_input_out aten, end = 87:006133, sync = 1
+raw_cudnn_convolution_backward_weight_out aten, start = 87:006148
+raw_cudnn_convolution_backward_weight_out aten, end = 87:019886, sync = 1
+raw_cudnn_convolution_backward_input_out aten, start = 87:020074
+raw_cudnn_convolution_backward_input_out aten, end = 87:033553, sync = 1
+raw_cudnn_convolution_backward_weight_out aten, start = 87:033579
+raw_cudnn_convolution_backward_weight_out aten, end = 87:047973, sync = 1
+raw_cudnn_convolution_backward_input_out aten, start = 87:048148
+raw_cudnn_convolution_backward_input_out aten, end = 87:063948, sync = 1
+raw_cudnn_convolution_backward_weight_out aten, start = 87:063973
+raw_cudnn_convolution_backward_weight_out aten, end = 87:077893, sync = 1
+raw_cudnn_convolution_backward_input_out aten, start = 87:078058
+raw_cudnn_convolution_backward_input_out aten, end = 87:091599, sync = 1
+raw_cudnn_convolution_backward_weight_out aten, start = 87:091614
+raw_cudnn_convolution_backward_weight_out aten, end = 87:105418, sync = 1
+raw_cudnn_convolution_backward_weight_out aten, start = 87:105656
+raw_cudnn_convolution_backward_weight_out aten, end = 87:185530, sync = 1
+[python] backward===: 1565226887185
+========================
+[python] ===forward: 1565226895113
+raw_cudnn_convolution_forward_out aten, start = 95:115389
+raw_cudnn_convolution_forward_out aten, end = 95:140941, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 95:141438
+raw_cudnn_convolution_forward_out aten, end = 95:171162, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 95:171634
+raw_cudnn_convolution_forward_out aten, end = 95:182378, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 95:182788
+raw_cudnn_convolution_forward_out aten, end = 95:195744, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 95:196116
+raw_cudnn_convolution_forward_out aten, end = 95:206883, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 95:207284
+raw_cudnn_convolution_forward_out aten, end = 95:218540, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 95:218912
+raw_cudnn_convolution_forward_out aten, end = 95:226406, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 95:226711
+raw_cudnn_convolution_forward_out aten, end = 95:228834, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 95:229197
+raw_cudnn_convolution_forward_out aten, end = 95:237757, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 95:238085
+raw_cudnn_convolution_forward_out aten, end = 95:245564, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 95:245944
+raw_cudnn_convolution_forward_out aten, end = 95:254051, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 95:254368
+raw_cudnn_convolution_forward_out aten, end = 95:259909, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 95:260190
+raw_cudnn_convolution_forward_out aten, end = 95:261579, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 95:261930
+raw_cudnn_convolution_forward_out aten, end = 95:268003, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 95:268323
+raw_cudnn_convolution_forward_out aten, end = 95:273862, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 95:274232
+raw_cudnn_convolution_forward_out aten, end = 95:281115, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 95:283812
+raw_cudnn_convolution_forward_out aten, end = 95:288355, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 95:292385
+raw_cudnn_convolution_forward_out aten, end = 95:293352, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 95:293660
+raw_cudnn_convolution_forward_out aten, end = 95:298605, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 95:298887
+raw_cudnn_convolution_forward_out aten, end = 95:303593, sync = 1
+[python] forward===: 1565226895305
+[python] ===backward: 1565226895306
+NUM TENSORS: 1
+raw_cudnn_convolution_backward_input_out aten, start = 95:307606
+raw_cudnn_convolution_backward_input_out aten, end = 95:313081, sync = 1
+raw_cudnn_convolution_backward_weight_out aten, start = 95:313114
+raw_cudnn_convolution_backward_weight_out aten, end = 95:317358, sync = 1
+raw_cudnn_convolution_backward_input_out aten, start = 95:317625
+raw_cudnn_convolution_backward_input_out aten, end = 95:322625, sync = 1
+raw_cudnn_convolution_backward_weight_out aten, start = 95:322661
+raw_cudnn_convolution_backward_weight_out aten, end = 95:326865, sync = 1
+raw_cudnn_convolution_backward_input_out aten, start = 95:327068
+raw_cudnn_convolution_backward_input_out aten, end = 95:329466, sync = 1
+raw_cudnn_convolution_backward_weight_out aten, start = 95:329485
+raw_cudnn_convolution_backward_weight_out aten, end = 95:330721, sync = 1
+raw_cudnn_convolution_backward_input_out aten, start = 95:330883
+raw_cudnn_convolution_backward_input_out aten, end = 95:335635, sync = 1
+raw_cudnn_convolution_backward_weight_out aten, start = 95:335656
+raw_cudnn_convolution_backward_weight_out aten, end = 95:339827, sync = 1
+raw_cudnn_convolution_backward_input_out aten, start = 95:340012
+raw_cudnn_convolution_backward_input_out aten, end = 95:350338, sync = 1
+raw_cudnn_convolution_backward_weight_out aten, start = 95:350358
+raw_cudnn_convolution_backward_weight_out aten, end = 95:355670, sync = 1
+raw_cudnn_convolution_backward_input_out aten, start = 95:355903
+raw_cudnn_convolution_backward_input_out aten, end = 95:362572, sync = 1
+raw_cudnn_convolution_backward_weight_out aten, start = 95:362593
+raw_cudnn_convolution_backward_weight_out aten, end = 95:367387, sync = 1
+raw_cudnn_convolution_backward_input_out aten, start = 95:367572
+raw_cudnn_convolution_backward_input_out aten, end = 95:373677, sync = 1
+raw_cudnn_convolution_backward_weight_out aten, start = 95:373700
+raw_cudnn_convolution_backward_weight_out aten, end = 95:378520, sync = 1
+raw_cudnn_convolution_backward_input_out aten, start = 95:378728
+raw_cudnn_convolution_backward_input_out aten, end = 95:382933, sync = 1
+raw_cudnn_convolution_backward_weight_out aten, start = 95:382952
+raw_cudnn_convolution_backward_weight_out aten, end = 95:384294, sync = 1
+raw_cudnn_convolution_backward_input_out aten, start = 95:384447
+raw_cudnn_convolution_backward_input_out aten, end = 95:390029, sync = 1
+raw_cudnn_convolution_backward_weight_out aten, start = 95:390050
+raw_cudnn_convolution_backward_weight_out aten, end = 95:394840, sync = 1
+raw_cudnn_convolution_backward_input_out aten, start = 95:395015
+raw_cudnn_convolution_backward_input_out aten, end = 95:405660, sync = 1
+raw_cudnn_convolution_backward_weight_out aten, start = 95:405682
+raw_cudnn_convolution_backward_weight_out aten, end = 95:411255, sync = 1
+raw_cudnn_convolution_backward_input_out aten, start = 95:411454
+raw_cudnn_convolution_backward_input_out aten, end = 95:421252, sync = 1
+raw_cudnn_convolution_backward_weight_out aten, start = 95:421273
+raw_cudnn_convolution_backward_weight_out aten, end = 95:427354, sync = 1
+raw_cudnn_convolution_backward_input_out aten, start = 95:427535
+raw_cudnn_convolution_backward_input_out aten, end = 95:436220, sync = 1
+raw_cudnn_convolution_backward_weight_out aten, start = 95:436242
+raw_cudnn_convolution_backward_weight_out aten, end = 95:442440, sync = 1
+raw_cudnn_convolution_backward_input_out aten, start = 95:442637
+raw_cudnn_convolution_backward_input_out aten, end = 95:449463, sync = 1
+raw_cudnn_convolution_backward_weight_out aten, start = 95:449483
+raw_cudnn_convolution_backward_weight_out aten, end = 95:451646, sync = 1
+raw_cudnn_convolution_backward_input_out aten, start = 95:451798
+raw_cudnn_convolution_backward_input_out aten, end = 95:459488, sync = 1
+raw_cudnn_convolution_backward_weight_out aten, start = 95:459518
+raw_cudnn_convolution_backward_weight_out aten, end = 95:465666, sync = 1
+raw_cudnn_convolution_backward_input_out aten, start = 95:465864
+raw_cudnn_convolution_backward_input_out aten, end = 95:481489, sync = 1
+raw_cudnn_convolution_backward_weight_out aten, start = 95:481511
+raw_cudnn_convolution_backward_weight_out aten, end = 95:487321, sync = 1
+raw_cudnn_convolution_backward_input_out aten, start = 95:487524
+raw_cudnn_convolution_backward_input_out aten, end = 95:503133, sync = 1
+raw_cudnn_convolution_backward_weight_out aten, start = 95:503160
+raw_cudnn_convolution_backward_weight_out aten, end = 95:516800, sync = 1
+raw_cudnn_convolution_backward_input_out aten, start = 95:516982
+raw_cudnn_convolution_backward_input_out aten, end = 95:530366, sync = 1
+raw_cudnn_convolution_backward_weight_out aten, start = 95:530386
+raw_cudnn_convolution_backward_weight_out aten, end = 95:544785, sync = 1
+raw_cudnn_convolution_backward_input_out aten, start = 95:544970
+raw_cudnn_convolution_backward_input_out aten, end = 95:560764, sync = 1
+raw_cudnn_convolution_backward_weight_out aten, start = 95:560791
+raw_cudnn_convolution_backward_weight_out aten, end = 95:574491, sync = 1
+raw_cudnn_convolution_backward_input_out aten, start = 95:574679
+raw_cudnn_convolution_backward_input_out aten, end = 95:588218, sync = 1
+raw_cudnn_convolution_backward_weight_out aten, start = 95:588249
+raw_cudnn_convolution_backward_weight_out aten, end = 95:601976, sync = 1
+raw_cudnn_convolution_backward_weight_out aten, start = 95:602274
+raw_cudnn_convolution_backward_weight_out aten, end = 95:682111, sync = 1
+[python] backward===: 1565226895682
+========================
+[python] ===forward: 1565226896173
+raw_cudnn_convolution_forward_out aten, start = 96:175528
+raw_cudnn_convolution_forward_out aten, end = 96:201658, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 96:202166
+raw_cudnn_convolution_forward_out aten, end = 96:232360, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 96:232704
+raw_cudnn_convolution_forward_out aten, end = 96:243789, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 96:244166
+raw_cudnn_convolution_forward_out aten, end = 96:257483, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 96:257822
+raw_cudnn_convolution_forward_out aten, end = 96:268913, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 96:269302
+raw_cudnn_convolution_forward_out aten, end = 96:280813, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 96:281196
+raw_cudnn_convolution_forward_out aten, end = 96:288815, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 96:289114
+raw_cudnn_convolution_forward_out aten, end = 96:291285, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 96:291656
+raw_cudnn_convolution_forward_out aten, end = 96:300799, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 96:301138
+raw_cudnn_convolution_forward_out aten, end = 96:308631, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 96:309015
+raw_cudnn_convolution_forward_out aten, end = 96:317158, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 96:317520
+raw_cudnn_convolution_forward_out aten, end = 96:323060, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 96:323355
+raw_cudnn_convolution_forward_out aten, end = 96:324749, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 96:325120
+raw_cudnn_convolution_forward_out aten, end = 96:331196, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 96:331529
+raw_cudnn_convolution_forward_out aten, end = 96:337074, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 96:337458
+raw_cudnn_convolution_forward_out aten, end = 96:344259, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 96:344590
+raw_cudnn_convolution_forward_out aten, end = 96:349274, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 96:349582
+raw_cudnn_convolution_forward_out aten, end = 96:350548, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 96:350931
+raw_cudnn_convolution_forward_out aten, end = 96:355845, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 96:356171
+raw_cudnn_convolution_forward_out aten, end = 96:360839, sync = 1
+[python] forward===: 1565226896362
+[python] ===backward: 1565226896364
+NUM TENSORS: 1
+raw_cudnn_convolution_backward_input_out aten, start = 96:365027
+raw_cudnn_convolution_backward_input_out aten, end = 96:370573, sync = 1
+raw_cudnn_convolution_backward_weight_out aten, start = 96:370607
+raw_cudnn_convolution_backward_weight_out aten, end = 96:374854, sync = 1
+raw_cudnn_convolution_backward_input_out aten, start = 96:375107
+raw_cudnn_convolution_backward_input_out aten, end = 96:380104, sync = 1
+raw_cudnn_convolution_backward_weight_out aten, start = 96:380126
+raw_cudnn_convolution_backward_weight_out aten, end = 96:384359, sync = 1
+raw_cudnn_convolution_backward_input_out aten, start = 96:384568
+raw_cudnn_convolution_backward_input_out aten, end = 96:386965, sync = 1
+raw_cudnn_convolution_backward_weight_out aten, start = 96:386988
+raw_cudnn_convolution_backward_weight_out aten, end = 96:388226, sync = 1
+raw_cudnn_convolution_backward_input_out aten, start = 96:388383
+raw_cudnn_convolution_backward_input_out aten, end = 96:393127, sync = 1
+raw_cudnn_convolution_backward_weight_out aten, start = 96:393147
+raw_cudnn_convolution_backward_weight_out aten, end = 96:397318, sync = 1
+raw_cudnn_convolution_backward_input_out aten, start = 96:397502
+raw_cudnn_convolution_backward_input_out aten, end = 96:407938, sync = 1
+raw_cudnn_convolution_backward_weight_out aten, start = 96:407959
+raw_cudnn_convolution_backward_weight_out aten, end = 96:413248, sync = 1
+raw_cudnn_convolution_backward_input_out aten, start = 96:413459
+raw_cudnn_convolution_backward_input_out aten, end = 96:420147, sync = 1
+raw_cudnn_convolution_backward_weight_out aten, start = 96:420169
+raw_cudnn_convolution_backward_weight_out aten, end = 96:424959, sync = 1
+raw_cudnn_convolution_backward_input_out aten, start = 96:425151
+raw_cudnn_convolution_backward_input_out aten, end = 96:431263, sync = 1
+raw_cudnn_convolution_backward_weight_out aten, start = 96:431285
+raw_cudnn_convolution_backward_weight_out aten, end = 96:436092, sync = 1
+raw_cudnn_convolution_backward_input_out aten, start = 96:436298
+raw_cudnn_convolution_backward_input_out aten, end = 96:440544, sync = 1
+raw_cudnn_convolution_backward_weight_out aten, start = 96:440566
+raw_cudnn_convolution_backward_weight_out aten, end = 96:441904, sync = 1
+raw_cudnn_convolution_backward_input_out aten, start = 96:442063
+raw_cudnn_convolution_backward_input_out aten, end = 96:447721, sync = 1
+raw_cudnn_convolution_backward_weight_out aten, start = 96:447742
+raw_cudnn_convolution_backward_weight_out aten, end = 96:452603, sync = 1
+raw_cudnn_convolution_backward_input_out aten, start = 96:452792
+raw_cudnn_convolution_backward_input_out aten, end = 96:463547, sync = 1
+raw_cudnn_convolution_backward_weight_out aten, start = 96:463569
+raw_cudnn_convolution_backward_weight_out aten, end = 96:469262, sync = 1
+raw_cudnn_convolution_backward_input_out aten, start = 96:469476
+raw_cudnn_convolution_backward_input_out aten, end = 96:479351, sync = 1
+raw_cudnn_convolution_backward_weight_out aten, start = 96:479373
+raw_cudnn_convolution_backward_weight_out aten, end = 96:485561, sync = 1
+raw_cudnn_convolution_backward_input_out aten, start = 96:485749
+raw_cudnn_convolution_backward_input_out aten, end = 96:494507, sync = 1
+raw_cudnn_convolution_backward_weight_out aten, start = 96:494530
+raw_cudnn_convolution_backward_weight_out aten, end = 96:500693, sync = 1
+raw_cudnn_convolution_backward_input_out aten, start = 96:500900
+raw_cudnn_convolution_backward_input_out aten, end = 96:507717, sync = 1
+raw_cudnn_convolution_backward_weight_out aten, start = 96:507737
+raw_cudnn_convolution_backward_weight_out aten, end = 96:509887, sync = 1
+raw_cudnn_convolution_backward_input_out aten, start = 96:510048
+raw_cudnn_convolution_backward_input_out aten, end = 96:517725, sync = 1
+raw_cudnn_convolution_backward_weight_out aten, start = 96:517746
+raw_cudnn_convolution_backward_weight_out aten, end = 96:523898, sync = 1
+raw_cudnn_convolution_backward_input_out aten, start = 96:524082
+raw_cudnn_convolution_backward_input_out aten, end = 96:539716, sync = 1
+raw_cudnn_convolution_backward_weight_out aten, start = 96:539739
+raw_cudnn_convolution_backward_weight_out aten, end = 96:545587, sync = 1
+raw_cudnn_convolution_backward_input_out aten, start = 96:545803
+raw_cudnn_convolution_backward_input_out aten, end = 96:561362, sync = 1
+raw_cudnn_convolution_backward_weight_out aten, start = 96:561383
+raw_cudnn_convolution_backward_weight_out aten, end = 96:574953, sync = 1
+raw_cudnn_convolution_backward_input_out aten, start = 96:575129
+raw_cudnn_convolution_backward_input_out aten, end = 96:588518, sync = 1
+raw_cudnn_convolution_backward_weight_out aten, start = 96:588534
+raw_cudnn_convolution_backward_weight_out aten, end = 96:602193, sync = 1
+raw_cudnn_convolution_backward_input_out aten, start = 96:602384
+raw_cudnn_convolution_backward_input_out aten, end = 96:617998, sync = 1
+raw_cudnn_convolution_backward_weight_out aten, start = 96:618012
+raw_cudnn_convolution_backward_weight_out aten, end = 96:631624, sync = 1
+raw_cudnn_convolution_backward_input_out aten, start = 96:631792
+raw_cudnn_convolution_backward_input_out aten, end = 96:645477, sync = 1
+raw_cudnn_convolution_backward_weight_out aten, start = 96:645502
+raw_cudnn_convolution_backward_weight_out aten, end = 96:659431, sync = 1
+raw_cudnn_convolution_backward_weight_out aten, start = 96:659654
+raw_cudnn_convolution_backward_weight_out aten, end = 96:740104, sync = 1
+[python] backward===: 1565226896740
+========================
+[python] ===forward: 1565226896745
+raw_cudnn_convolution_forward_out aten, start = 96:748110
+raw_cudnn_convolution_forward_out aten, end = 96:774440, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 96:774877
+raw_cudnn_convolution_forward_out aten, end = 96:805757, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 96:806063
+raw_cudnn_convolution_forward_out aten, end = 96:817150, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 96:817488
+raw_cudnn_convolution_forward_out aten, end = 96:830817, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 96:831127
+raw_cudnn_convolution_forward_out aten, end = 96:842246, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 96:842599
+raw_cudnn_convolution_forward_out aten, end = 96:854131, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 96:854435
+raw_cudnn_convolution_forward_out aten, end = 96:862080, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 96:862347
+raw_cudnn_convolution_forward_out aten, end = 96:864515, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 96:864850
+raw_cudnn_convolution_forward_out aten, end = 96:873579, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 96:873881
+raw_cudnn_convolution_forward_out aten, end = 96:881512, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 96:881860
+raw_cudnn_convolution_forward_out aten, end = 96:890248, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 96:890550
+raw_cudnn_convolution_forward_out aten, end = 96:896294, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 96:896557
+raw_cudnn_convolution_forward_out aten, end = 96:897985, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 96:898316
+raw_cudnn_convolution_forward_out aten, end = 96:904596, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 96:904904
+raw_cudnn_convolution_forward_out aten, end = 96:910636, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 96:910991
+raw_cudnn_convolution_forward_out aten, end = 96:918061, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 96:918365
+raw_cudnn_convolution_forward_out aten, end = 96:923232, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 96:923498
+raw_cudnn_convolution_forward_out aten, end = 96:924500, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 96:924832
+raw_cudnn_convolution_forward_out aten, end = 96:929955, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 96:930257
+raw_cudnn_convolution_forward_out aten, end = 96:935137, sync = 1
+[python] forward===: 1565226896936
+[python] ===backward: 1565226896938
+NUM TENSORS: 1
+raw_cudnn_convolution_backward_input_out aten, start = 96:939162
+raw_cudnn_convolution_backward_input_out aten, end = 96:944908, sync = 1
+raw_cudnn_convolution_backward_weight_out aten, start = 96:944939
+raw_cudnn_convolution_backward_weight_out aten, end = 96:949314, sync = 1
+raw_cudnn_convolution_backward_input_out aten, start = 96:949488
+raw_cudnn_convolution_backward_input_out aten, end = 96:954745, sync = 1
+raw_cudnn_convolution_backward_weight_out aten, start = 96:954772
+raw_cudnn_convolution_backward_weight_out aten, end = 96:959085, sync = 1
+raw_cudnn_convolution_backward_input_out aten, start = 96:959274
+raw_cudnn_convolution_backward_input_out aten, end = 96:961761, sync = 1
+raw_cudnn_convolution_backward_weight_out aten, start = 96:961788
+raw_cudnn_convolution_backward_weight_out aten, end = 96:963060, sync = 1
+raw_cudnn_convolution_backward_input_out aten, start = 96:963217
+raw_cudnn_convolution_backward_input_out aten, end = 96:968739, sync = 1
+raw_cudnn_convolution_backward_weight_out aten, start = 96:968766
+raw_cudnn_convolution_backward_weight_out aten, end = 96:973042, sync = 1
+raw_cudnn_convolution_backward_input_out aten, start = 96:973213
+raw_cudnn_convolution_backward_input_out aten, end = 96:984099, sync = 1
+raw_cudnn_convolution_backward_weight_out aten, start = 96:984115
+raw_cudnn_convolution_backward_weight_out aten, end = 96:989595, sync = 1
+raw_cudnn_convolution_backward_input_out aten, start = 96:989778
+raw_cudnn_convolution_backward_input_out aten, end = 96:996627, sync = 1
+raw_cudnn_convolution_backward_weight_out aten, start = 96:996653
+raw_cudnn_convolution_backward_weight_out aten, end = 97:001536, sync = 1
+raw_cudnn_convolution_backward_input_out aten, start = 97:001699
+raw_cudnn_convolution_backward_input_out aten, end = 97:007958, sync = 1
+raw_cudnn_convolution_backward_weight_out aten, start = 97:007986
+raw_cudnn_convolution_backward_weight_out aten, end = 97:012867, sync = 1
+raw_cudnn_convolution_backward_input_out aten, start = 97:013045
+raw_cudnn_convolution_backward_input_out aten, end = 97:017321, sync = 1
+raw_cudnn_convolution_backward_weight_out aten, start = 97:017346
+raw_cudnn_convolution_backward_weight_out aten, end = 97:018716, sync = 1
+raw_cudnn_convolution_backward_input_out aten, start = 97:018859
+raw_cudnn_convolution_backward_input_out aten, end = 97:024579, sync = 1
+raw_cudnn_convolution_backward_weight_out aten, start = 97:024604
+raw_cudnn_convolution_backward_weight_out aten, end = 97:029496, sync = 1
+raw_cudnn_convolution_backward_input_out aten, start = 97:029658
+raw_cudnn_convolution_backward_input_out aten, end = 97:041144, sync = 1
+raw_cudnn_convolution_backward_weight_out aten, start = 97:041170
+raw_cudnn_convolution_backward_weight_out aten, end = 97:047012, sync = 1
+raw_cudnn_convolution_backward_input_out aten, start = 97:047191
+raw_cudnn_convolution_backward_input_out aten, end = 97:057170, sync = 1
+raw_cudnn_convolution_backward_weight_out aten, start = 97:057196
+raw_cudnn_convolution_backward_weight_out aten, end = 97:063409, sync = 1
+raw_cudnn_convolution_backward_input_out aten, start = 97:063573
+raw_cudnn_convolution_backward_input_out aten, end = 97:072422, sync = 1
+raw_cudnn_convolution_backward_weight_out aten, start = 97:072447
+raw_cudnn_convolution_backward_weight_out aten, end = 97:078673, sync = 1
+raw_cudnn_convolution_backward_input_out aten, start = 97:078856
+raw_cudnn_convolution_backward_input_out aten, end = 97:085659, sync = 1
+raw_cudnn_convolution_backward_weight_out aten, start = 97:085685
+raw_cudnn_convolution_backward_weight_out aten, end = 97:087863, sync = 1
+raw_cudnn_convolution_backward_input_out aten, start = 97:087993
+raw_cudnn_convolution_backward_input_out aten, end = 97:095778, sync = 1
+raw_cudnn_convolution_backward_weight_out aten, start = 97:095804
+raw_cudnn_convolution_backward_weight_out aten, end = 97:102012, sync = 1
+raw_cudnn_convolution_backward_input_out aten, start = 97:102173
+raw_cudnn_convolution_backward_input_out aten, end = 97:117951, sync = 1
+raw_cudnn_convolution_backward_weight_out aten, start = 97:117967
+raw_cudnn_convolution_backward_weight_out aten, end = 97:123872, sync = 1
+raw_cudnn_convolution_backward_input_out aten, start = 97:124080
+raw_cudnn_convolution_backward_input_out aten, end = 97:139871, sync = 1
+raw_cudnn_convolution_backward_weight_out aten, start = 97:139896
+raw_cudnn_convolution_backward_weight_out aten, end = 97:153563, sync = 1
+raw_cudnn_convolution_backward_input_out aten, start = 97:153717
+raw_cudnn_convolution_backward_input_out aten, end = 97:167263, sync = 1
+raw_cudnn_convolution_backward_weight_out aten, start = 97:167289
+raw_cudnn_convolution_backward_weight_out aten, end = 97:181067, sync = 1
+raw_cudnn_convolution_backward_input_out aten, start = 97:181244
+raw_cudnn_convolution_backward_input_out aten, end = 97:197060, sync = 1
+raw_cudnn_convolution_backward_weight_out aten, start = 97:197086
+raw_cudnn_convolution_backward_weight_out aten, end = 97:210948, sync = 1
+raw_cudnn_convolution_backward_input_out aten, start = 97:211124
+raw_cudnn_convolution_backward_input_out aten, end = 97:224672, sync = 1
+raw_cudnn_convolution_backward_weight_out aten, start = 97:224696
+raw_cudnn_convolution_backward_weight_out aten, end = 97:239056, sync = 1
+raw_cudnn_convolution_backward_weight_out aten, start = 97:239283
+raw_cudnn_convolution_backward_weight_out aten, end = 97:320116, sync = 1
+[python] backward===: 1565226897320
+Epoch: [0][  10/5004]	Time  0.580 ( 3.020)	Data  0.000 ( 2.088)	Loss 7.1059e+00 (7.0403e+00)	Acc@1   0.39 (  0.21)	Acc@5   0.39 (  0.71)

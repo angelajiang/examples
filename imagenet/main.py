@@ -280,6 +280,9 @@ def train(train_loader, model, criterion, optimizer, epoch, args):
     end = time.time()
     for i, (images, target) in enumerate(train_loader):
         print("========================")
+        # compute output
+        if PROFILE_TIMING:
+            print("[python] ===epoch: {}".format(get_epochtime_ms()))
         # measure data loading time
         data_time.update(time.time() - end)
 
@@ -287,18 +290,20 @@ def train(train_loader, model, criterion, optimizer, epoch, args):
             images = images.cuda(args.gpu, non_blocking=True)
         target = target.cuda(args.gpu, non_blocking=True)
 
+        if PROFILE_TIMING:
+            print("[python] ===forward-nograd: {}".format(get_epochtime_ms()))
+            with torch.no_grad():
+                output = model(images)
+            torch.cuda.synchronize()
+            print("[python] forward-nograd===: {}".format(get_epochtime_ms()))
+
         # compute output
         if PROFILE_TIMING:
-            #print("[python] ===forward: {}".format(get_epochtime_ms()))
-            with torch.cuda.profiler.profile() as prof:
-                model(images)
-                with torch.autograd.profiler.emit_nvtx():
-                    output = model(images)
-        else:
-            output = model(images)
-        #if PROFILE_TIMING:
-        #    torch.cuda.synchronize()
-        #    print("[python] forward===: {}".format(get_epochtime_ms()))
+            print("[python] ===forward: {}".format(get_epochtime_ms()))
+        output = model(images)
+        if PROFILE_TIMING:
+            torch.cuda.synchronize()
+            print("[python] forward===: {}".format(get_epochtime_ms()))
         loss = criterion(output, target)
 
         # measure accuracy and record loss
@@ -310,15 +315,11 @@ def train(train_loader, model, criterion, optimizer, epoch, args):
         # compute gradient and do SGD step
         optimizer.zero_grad()
         if PROFILE_TIMING:
-            with torch.cuda.profiler.profile() as prof:
-                with torch.autograd.profiler.emit_nvtx():
-                    loss.backward()
-            #print("[python] ===backward: {}".format(get_epochtime_ms()))
-        else:
-            loss.backward()
-        #if PROFILE_TIMING:
-        #    torch.cuda.synchronize()
-        #    print("[python] backward===: {}".format(get_epochtime_ms()))
+            print("[python] ===backward: {}".format(get_epochtime_ms()))
+        loss.backward()
+        if PROFILE_TIMING:
+            torch.cuda.synchronize()
+            print("[python] backward===: {}".format(get_epochtime_ms()))
         optimizer.step()
 
         # measure elapsed time
@@ -328,7 +329,10 @@ def train(train_loader, model, criterion, optimizer, epoch, args):
         if i % args.print_freq == 0:
             progress.display(i)
 
-        if i >= 10:
+        if PROFILE_TIMING:
+            print("[python] epoch===: {}".format(get_epochtime_ms()))
+
+        if i >= 15:
             exit()
 
 

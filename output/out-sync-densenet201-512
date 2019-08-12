@@ -1,0 +1,30 @@
+['alexnet', 'densenet121', 'densenet161', 'densenet169', 'densenet201', 'inception_v3', 'resnet101', 'resnet152', 'resnet18', 'resnet34', 'resnet50', 'squeezenet1_0', 'squeezenet1_1', 'vgg11', 'vgg11_bn', 'vgg13', 'vgg13_bn', 'vgg16', 'vgg16_bn', 'vgg19', 'vgg19_bn']
+=> creating model 'densenet201'
+========================
+[python] ===epoch: 1565244737182
+[python] ===forward: 1565244737188
+raw_cudnn_convolution_forward_out aten, start = 38:085460
+raw_cudnn_convolution_forward_out output aten, dims = [512, 64, 112, 112]
+raw_cudnn_convolution_forward_out input aten, dims = [512, 3, 224, 224]
+raw_cudnn_convolution_forward_out weight aten, dims = [64, 3, 7, 7]
+raw_cudnn_convolution_forward_out aten, end = 38:471989, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 38:505836
+raw_cudnn_convolution_forward_out output aten, dims = [512, 128, 56, 56]
+raw_cudnn_convolution_forward_out input aten, dims = [512, 64, 56, 56]
+raw_cudnn_convolution_forward_out weight aten, dims = [128, 64, 1, 1]
+raw_cudnn_convolution_forward_out aten, end = 38:664623, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 38:832634
+raw_cudnn_convolution_forward_out output aten, dims = [512, 32, 56, 56]
+raw_cudnn_convolution_forward_out input aten, dims = [512, 128, 56, 56]
+raw_cudnn_convolution_forward_out weight aten, dims = [32, 128, 3, 3]
+raw_cudnn_convolution_forward_out aten, end = 39:091113, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 39:113174
+raw_cudnn_convolution_forward_out output aten, dims = [512, 128, 56, 56]
+raw_cudnn_convolution_forward_out input aten, dims = [512, 96, 56, 56]
+raw_cudnn_convolution_forward_out weight aten, dims = [128, 96, 1, 1]
+raw_cudnn_convolution_forward_out aten, end = 39:395159, sync = 1
+raw_cudnn_convolution_forward_out aten, start = 39:537978
+raw_cudnn_convolution_forward_out output aten, dims = [512, 32, 56, 56]
+raw_cudnn_convolution_forward_out input aten, dims = [512, 128, 56, 56]
+raw_cudnn_convolution_forward_out weight aten, dims = [32, 128, 3, 3]
+raw_cudnn_convolution_forward_out aten, end = 39:566012, sync = 1
